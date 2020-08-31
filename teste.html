@@ -42,13 +42,24 @@
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
   </style>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
 </head><body>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Texto base<span class='seta'></span></h4>
 
-      <div class='suporte'><amp-img on="tap:lightbox" role="button" tabindex="0" src="https://drive.google.com/uc?id=1EFz1r3yPpHn3ZRff-6Qkwk6KwZbqoGyK" alt="" width="3" height="4" layout="responsive" lightbox>
-        <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+      <div class='suporte'>
+        <amp-carousel
+  lightbox
+  width="3"
+  height="4"
+  layout="responsive"
+  type="slides"
+>
+        <amp-img on="tap:lightbox" role="button" tabindex="0" src="https://drive.google.com/uc?id=1EFz1r3yPpHn3ZRff-6Qkwk6KwZbqoGyK" alt="" width="3" height="4" layout="responsive" lightbox>
+        </amp-carousel>
+          <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
         </div>
   </section></amp-accordion>
    
