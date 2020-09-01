@@ -1,0 +1,62 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 29 - 1º EQ 2020</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
+  <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Uma gerente de loja e seu assistente viajam com frequência para São Paulo e voltam no mesmo dia. A gerente viaja a cada 24 dias e o assistente, a cada 16 dias, regularmente. Em um final de semana, eles viajaram juntos. Depois de x viagens da gerente e y viagens do assistente sozinhos, eles viajaram juntos novamente.</p>
+<p>O menor valor de x + y é:</p>
+<p>(A) 1<br>
+(B) 2<br>
+(C) 3<br>
+(D) 4</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Gabarito: C</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'><p>
+Uma gerente da loja viaja a cada 24 dias e seu assistente, a cada 16 dias. Se eles viajaram juntos em um final de semana, farão outra viagem juntos no primeiro múltiplo comum a 16 e 24, que é 48, como se pode obter a partir do conjunto dos múltiplos naturais de 16 e 24:</p>
+<p>M (16): {0, 16, 32, 48, 64, …}<br>
+M (24): {0, 24, 48, 72, 96, …}</p>
+<p>Em 48 dias, uma nova viagem em conjunto ocorrerá. Nesse período, a gerente fará apenas uma viagem sozinha (x = 1), enquanto o assistente fará duas (y = 2). Assim, o menor valor de x + y = 3.</p></img-amp></div>
+    </section></amp-accordion>
+  </body>
+</html>
