@@ -1,0 +1,85 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 34 - 2º EQ 2019</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
+  <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+  </style>
+</head><body>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
+    <section>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='4'
+    height='3'
+    lightbox>
+    <div><amp-img layout='fill' width='3' height='4' class='aligncenter' style='width:25%' src='https://drive.google.com/uc?id=1glTW0h3HX2cOR6zeAnGzUhmz3--XkM71' alt=''></img-amp></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Observe na imagem uma pirâmide de base quadrada, seccionada por dois planos paralelos à base, um contendo o ponto A e o outro o ponto B. Esses planos dividem cada aresta lateral em três partes iguais.</p>
+<p>Considere as seguintes medidas da pirâmide:<br>
+• altura = 9 cm;<br>
+• aresta da base = 6 cm;<br>
+• volume total = 108 cm<sup>3</sup></p>
+
+<p>O volume da região compreendida entre os planos paralelos, em cm<sup>3</sup>, é:</p>
+<p>(A) 26<br>
+(B) 24<br>
+(C) 28<br>
+(D) 30</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (C)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'><p>Comentário: Os planos dividem não só as arestas em três partes iguais, mas também a altura. Observe:<br>
+<amp-img layout='responsive' width='4' height='3' class="alignleft" style="width:17%" src="https://drive.google.com/uc?id=1MmwyVKMZ7LrSxfc3WbWqdVlThBgkR-rD" alt=""><br>
+Vol<sub>1</sub> = volume da pirâmide de aresta VB, que tem altura igual a 3 cm.<br>
+Vol<sub>2</sub> = volume da pirâmide de aresta VA, que tem altura igual a 6 cm.<br>
+Vol<sub>3</sub> = volume da pirâmide maior, de 108 cm<sup>3</sup>, que tem altura igual a 9 cm.</p>
+<p>As três pirâmides são semelhantes, logo é possível afirmar que a razão entre os volumes é igual ao cubo da razão entre as respectivas alturas:</p>
+<p>Vol<sub>1</sub>/Vol<sub>3</sub> = (3/9)<sup>3</sup><br>
+Vol<sub>1</sub>/108 = 1/27<br>
+Vol<sub>1</sub> = 4 cm<sup>3</sup></p>
+<p>Vol<sub>1</sub>/Vol<sub>2</sub> = (3/6)<sup>3</sup><br>
+4/Vol<sub>2</sub> = 1/8<br>
+Vol<sub>2</sub> = 32 cm<sup>3</sup></p>
+<p>O volume da região entre os planos corresponde a Vol<sub>2</sub> − Vol<sub>1</sub> = 28 cm<sup>3</sup></p></img-amp></div>
+    </section></amp-accordion>
+  </body>
+</html>
