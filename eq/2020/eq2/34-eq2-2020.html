@@ -1,0 +1,75 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 34 - 2º EQ 2020</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
+  <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Tem-se que o número a<sub>6</sub>a<sub>5</sub>a<sub>4</sub>a<sub>3</sub>a<sub>2</sub>a<sub>1</sub> é divisível por 11, se o valor da expressão (a<sub>1</sub> − a<sub>2</sub> + a<sub>3</sub> − a<sub>4</sub> + a<sub>5</sub> − a<sub>6</sub>) também é divisível por 11.</p>
+<p>Por exemplo, 178409 é divisível por 11 porque (9 − 0 + 4 − 8 + 7 − 1 = 11) é divisível por 11.</p>
+<p>Considere a senha de seis dígitos 3894xy, sendo x e y pertencentes ao conjunto { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }.</p>
+<p>Se essa senha forma um número divisível por 99, o algarismo y é igual a:</p>
+<p>(A) 9<br>
+(B) 8<br>
+(C) 7<br>
+(D) 6</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Gabarito: D.</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'><p>
+Se o número 3894xy é divisível por 99, então ele é divisível por 11 e por 9. Observem-se as análises a seguir.</p>
+<p>1º) Pelo críterio de divisibilidade dado, se o número é divisível por 11, tem-se:<br>
+y – x + 4 – 9 + 8 – 3 = y − x</p>
+<p>Assim (y − x) deve ser múltiplo de 11, e a única possibilidade para essa ocorrência é y − x = 0, pois todas as outras resultariam em valores de x ou y que não pertencem aos possíveis dígitos de 0 a 9. Então:<br>
+x − y = 0, sendo x = y</p>
+<p>2º) Um número é divisível por 9 se a soma dos seus algarismos é divisível por 9. Logo:<br>
+y + x + 4 + 9 + 8 + 3 = x + y + 24 é divisível por 9</p>
+<p>Como x = y, tem-se 2y + 24, com y ∈ {0, 1, 2, 3, …, 9}. Os possíveis valores de 2y + 24 podem ser obtidos<br>
+substituindo-se y nessa expressão, encontrando-se os seguintes resultados:</p>
+<p>y = 0 ⇒ 24<br>
+y = 1 ⇒ 26<br>
+y = 2 ⇒ 28<br>
+(…)<br>
+y = 9 ⇒ 42</p>
+<p>Desse modo, dentre os possíveis valores {24, 26, 28, 30, 32, 34, 36, 38, 40, 42}, somente 36 é divisível por 9, o que se obtém ao substituir y = 6 na expressão 2y + 24.</p></img-amp></div>
+    </section></amp-accordion>
+  </body>
+</html>
