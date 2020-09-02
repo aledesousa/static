@@ -1,0 +1,75 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 05 - 1º EQ 2018</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
+  <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
+    <section>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='4'
+    height='3'
+    lightbox>
+    <div><amp-img layout='fill' width='3' height='4' class='aligncenter' src='https://drive.google.com/uc?id=1U76oRbUrEsoivE6GcxmdT5SFqsxU3BPY' alt=''></img-amp></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Segundo historiadores da matemática, a análise de padrões como os ilustrados a seguir possibilitou a descoberta das triplas pitagóricas.</p>
+
+<p>Observe que os números inteiros 3<sup>2</sup>, 4<sup>2</sup> e 5<sup>2</sup>, representados respectivamente pelas 2ª, 3ª e 4ª figuras, satisfazem ao Teorema de Pitágoras. Dessa forma (3, 4, 5) é uma tripla pitagórica.</p>
+<p>Os quadrados representados pelas 4ª, 11ª e nª figuras determinam outra tripla pitagórica, sendo o valor de n igual a:<br>
+(A) 10<br>
+(B) 12<br>
+(C) 14<br>
+(D) 16</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (B)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'><p>A 2ª figura é um quadrado de 9 pontos, ou 3<sup>2</sup> ; a 3ª figura é um quadrado de 16 pontos, ou 4<sup>2</sup>; a 4ª figura é um quadrado de 25 pontos, ou 5<sup>2</sup>; e assim por diante. Nota-se a existência de um padrão em que, a cada figura, acrescentam-se uma linha e uma coluna de pontos. Desse modo, 11ª figura deverá ter 12<sup>2&nbsp;</sup>= 144 pontos. Por sua vez, a nª figura terá (n + 1)<sup>2&nbsp;</sup>pontos, sendo n + 1 o número de linhas e de colunas da nª figura. Sabe-se, pelo Teorema de Pitágoras, que 3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup>. Logo:</p>
+<p>5<sup>2&nbsp;</sup>+ 12<sup>2&nbsp;</sup>= (n + 1)<sup>2&nbsp;</sup></p>
+<p>169 = (n + 1)<sup>2&nbsp;</sup></p>
+<p>13 = n + 1</p>
+<p>n = 12</p></img-amp></div>
+    </section></amp-accordion>
+  </body>
+</html>
