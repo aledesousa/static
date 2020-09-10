@@ -1,0 +1,80 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 50 - 1º EQ 2016</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
+  <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
+    <section>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='4'
+    height='3'
+    lightbox>
+    <div><amp-img layout='responsive' height='3' width='4' border='0' alt='' src='imagens/humanas/50_HUM.png?w=1400' data-recalc-dims='1'></img-amp></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><div><span style="line-height: 21.6px; ;">Compare as imagens a seguir. Na Imagem 1, apresenta-se o desenho original do perfil de uma cabeça humana sobre uma representação possível do globo terrestre. Na Imagem 2, esse mesmo desenho é apresentado em um planisfério elaborado com a projeção cartográfica de Mercator, que é utilizada desde o período das grandes navegações.</span>
+</div>
+<div>
+<p><span style="line-height: 21.6px;"><br></span>
+ </div>
+<div> 
+<div>
+<p>Com base na comparação entre essas imagens, conclui-se que o território das Américas que tem a área mais ampliada com o uso da projeção de Mercator é: </p>
+</div>
+</div>
+</div>
+<p>(A) Brasil
+</p>
+<p>(B) México</p>
+<p>(C) Argentina</p>
+<p>(D) Groenlândia</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (D)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>Na Imagem 1, um perfil de cabeça humana está representado de forma equilibradamente proporcional sobre uma representação do globo, de modo a fornecer um parâmetro da figura original. Na Imagem 2, é nítida a acentuada distorção de área nas porções extremas do perfil, referentes ao topo e à base da cabeça. Isso pode ser explicado pelo fato de que a projeção de Mercator é uma projeção cilíndrica tangente à linha do Equador. Isso significa que a única porção que mantém a equivalência de área entre representação gráfica e realidade é aquela situada na linha equatorial. Quanto mais longe dessa linha, maior será a distorção da área representada.Com base nessa informação, é possível inferir com segurança que o território das Américas cuja área será mais ampliada com o uso dessa projeção será a Groenlândia, por estar integralmente situada em uma região com elevadas latitudes.</p></div>
+    </section></amp-accordion>
+  </body>
+</html>
