@@ -1,0 +1,68 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 24 - 1º EQ 2016</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Dois dados, com doze faces pentagonais cada um, têm a forma de dodecaedros regulares. Se os dodecaedros estão justapostos por uma de suas faces, que coincidem perfeitamente, formam um poliedro côncavo, conforme ilustra a figura.</p>
+<p><img height="110" width="104" border="0" alt='' src="imagens/matematica/dados.png?resize=104%2C110" data-recalc-dims="1"></p>
+<p>Considere o número de vértices V, de faces F e de arestas A desse poliedro côncavo.<br>A soma V + F + A é igual a:</p>
+<p>(A) 102
+</p>
+<p>(B) 106</p>
+<p>(C) 110</p>
+<p>(D) 112</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (D)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>Cada dodecaedro regular possui 30 arestas. Observe:</p>
+<p>2 × A<sub>dodecaedro</sub> = 5 × F<sub>5</sub>(sendo F<sub>5</sub> a quantidade e faces pentagonais)</p>
+<p>2 × A<sub>dodecaedro</sub> = 5 × 12</p>
+<p>A<sub>dodecaedro</sub> = 30</p>
+<p>Segundo a relação de Euler:</p>
+<p>V<sub>dodecaedro</sub> + F<sub>dodecaedro</sub> = A<sub>dodecaedro</sub> + 2</p>
+<p>V<sub>dodecaedro</sub> + 12 = 30 + 2</p>
+<p>Logo, o dodecaedro possui 20 vértices.</p>
+<p>A justaposição de duas faces congruentes dos dois dodecaedros regulares impede a visualização de 5 arestas e de 5 vértices (porque passam a coincidir) e de 2 faces (que ficam ocultas). No novo sólido, portanto, as quantidades V de vértices, F de faces e A de arestas são:<br>V= 20 + 20 – 5 = 35<br>F = 12 + 12 – 2 = 22<br>A = 30 + 30 – 5 = 55<br>A soma V + F + A é igual a 112.</p></div>
+    </section></amp-accordion>
+  </body>
+</html>

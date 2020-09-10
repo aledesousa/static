@@ -1,0 +1,66 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 28 - 1º EQ 2016</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Um painel de iluminação possui nove seções distintas, e cada uma delas acende uma luz de cor vermelha ou azul. A cada segundo, são acesas, ao acaso, duas seções de uma mesma cor e uma terceira de outra cor, enquanto as seis demais permanecem apagadas.<br>Observe quatro diferentes possibilidades de iluminação do painel:</p>
+<p><img border="0" alt='' src="imagens/matematica/MAT_Q28.png?w=1400" data-recalc-dims="1"></p>
+<p>O tempo mínimo necessário para a ocorrência de todas as possibilidades distintas de iluminação do painel, após seu acionamento, é igual a x minutos e y segundos, sendo y &lt; 60.<br>Os valores respectivos de x e y são:</p>
+<p>(A) 4 e 12
+</p>
+<p>(B) 8 e 24</p>
+<p>(C) 25 e 12</p>
+<p>(D) 50 e 24</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (B)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>A cada evento da situação apresentada, 3 seções dentre 9 são escolhidas. É possível, a partir desses dados, chegar ao número de ocorrências desse evento:</p>
+<p><img border="0" alt="" src="imagens/matematica/28_MAT_COM_1.png?w=1400" data-recalc-dims="1"></p>
+<p>Considerem-se, inicialmente, 2 lâmpadas azuis e 1 vermelha. O número de permutações nessa disposição de lâmpadas acesas é:</p>
+<p><img border="0" alt="" src="imagens/matematica/28_MAT_COM_A.png?w=1400" data-recalc-dims="1"></p>
+<p>Pelo princípio multiplicativo, tem-se 84 × 3 = 252.<br>Para o caso de 2 lâmpadas vermelhas e 1 azul, também existem 252 maneiras de iluminar o painel. Ao todo, trata-se de 2 × 252 = 504 maneiras de iluminar o painel. Portanto, o tempo mínimo necessário para ocorrência de todas as possibilidades distintas de iluminação corresponde a 504 segundos ou 8 minutos (480 segundos) e 24 segundos.<br>Logo, x = 8 e y = 24.<br>Para solucionar o problema apresentado, também é possível considerar as seções como 9 elementos dispostos em sequência. No caso de 2 lâmpadas azuis e 1 vermelha acesas, pode-se representar a sequência de 9 elementos como AAVOOOOOO, sendo A a lâmpada azul, V a vermelha e O a seção com lâmpada apagada. Cada permutação desses 9 elementos da sequência oferece uma maneira distinta de iluminar o painel. Assim:</p>
+<p><img border="0" alt="" src="imagens/matematica/28_MAT_COM_B_1.png?w=1400" data-recalc-dims="1"></p>
+<p>Para o caso de 2 lâmpadas vermelhas e 1 azul acesas, chega-se ao mesmo valor. Mais uma vez, no total, têm-se 2 × 252= 504 maneiras distintas de iluminar o painel.</p></div>
+    </section></amp-accordion>
+  </body>
+</html>
