@@ -1,0 +1,61 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 34 - 1º EQ 2012</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Um cliente, ao chegar a uma agência bancária, retirou a última senha de atendimento do dia, com o número 49. Verificou que havia 12 pessoas à sua frente na fila, cujas senhas representavam uma progressão aritmética de números naturais consecutivos, começando em 37.<br>Algum tempo depois, mais de 4 pessoas desistiram do atendimento e saíram do banco. Com isso, os números das senhas daquelas que permaneceram na fila passaram a formar uma nova progressão aritmética.<br>Se os clientes com as senhas de números 37 e 49 não saíram do banco, o número máximo de pessoas que pode ter permanecido na fila é:</p>
+<p>(A) 6
+</p>
+<p>(B) 7</p>
+<p>(C) 9</p>
+<p>(D) 12</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (B)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>A sequência formada pelos números das senhas das pessoas que estavam na fila, incluindo a do último cliente que chegou ao banco, correspondia à seguinte progressão aritmética:<br>(37, 38, 39……, 49)<br>Após a desistência de algumas pessoas, formou-se a seguinte P.A., de razão <span style="FONT-STYLE: italic">R e número de termos <span style="FONT-STYLE: italic">n:<br>(37, a<sub>2</sub>, a<sub>3</sub>, a<sub>4</sub>, … , 49)</p>
+<p><img border="0" alt="" src="imagens/34.png?w=1400" data-recalc-dims="1"></p>
+<p>A P.A. tem menos de 13 elementos. Assim, para o valor de <span style="FONT-STYLE: italic">n ser máximo, <span style="FONT-STYLE: italic">R deve ser igual a 2.<br>Logo, <span style="FONT-STYLE: italic">n = 7.</p></div>
+    </section></amp-accordion>
+  </body>
+</html>
