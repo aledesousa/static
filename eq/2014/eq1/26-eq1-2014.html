@@ -1,0 +1,81 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 26 - 1º EQ 2014</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Em uma sala, encontram-se dez halteres, distribuídos em cinco pares de cores diferentes. Os halteres de mesma massa são da mesma cor. Seu armazenamento é denominado “perfeito” quando os halteres de mesma cor são colocados juntos.<br>Nas figuras abaixo, podem-se observar dois exemplos de armazenamento perfeito. </p>
+<p><img class='responsive' border="0" alt='' src="imagens/matematica/Halteres.png?w=1400" data-recalc-dims="1"><br> 
+</div>
+<p>Arrumando-se ao acaso os dez halteres, a probabilidade de que eles formem um armazenamento perfeito equivale a:</p>
+<p>(A) <img class='responsive' src="imagens/Etapa_17-Questao_26-Alternativa_A-20130613190651.png?w=1400" alt=''"Opção A" data-recalc-dims="1"></p>
+<p>(B) <img class='responsive' src="imagens/Etapa_17-Questao_26-Alternativa_B-20130613190651.png?w=1400" alt=''"Opção B" data-recalc-dims="1"></p>
+<p>(C) <img class='responsive' src="imagens/Etapa_17-Questao_26-Alternativa_C-20130613190651.png?w=1400" alt=''"Opção C" data-recalc-dims="1"></p>
+<p>(D) <img class='responsive' src="imagens/Etapa_17-Questao_26-Alternativa_D-20130613190651.png?w=1400" alt=''"Opção D" data-recalc-dims="1"></p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (B)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>O número total de arrumações distintas é igual ao número de permutações dos dez objetos com repetições de dois objetos cinco vezes, isto é:</p>
+<p><img border="0" alt="" width="269" height="162" src="imagens/matematica/Com26A.png?resize=269%2C162" data-recalc-dims="1"></p>
+<p>O número de armazenamentos perfeitos é igual ao número de permutações simples dos cinco pares de mesma cor. Isso corresponde a:</p>
+<p><img border="0" alt="" width="143" height="17" src="imagens/matematica/Com26C.png?resize=143%2C17" data-recalc-dims="1"></p>
+<p>Portanto, a probabilidade de organizar ao acaso os halteres, obtendo um armazenamento perfeito, equivale a:</p>
+<p><img border="0" alt="" width="429" height="41" src="imagens/matematica/Com26B.png?resize=429%2C41" data-recalc-dims="1"></p>
+<p>Veja-se outra solução possível a seguir</p>
+<p>A probabilidade de escolher um halter qualquer corresponde a <img border="0" alt="" align="absMiddle" width="15" height="28" style="width: 15px; height: 28px;" src="imagens/matematica/10_10.png?resize=15%2C28" data-recalc-dims="1">, e a probabilidade de o segundo halter ter a mesma cor do primeiro é de <img border="0" alt="" align="absMiddle" width="15" height="28" style="width: 15px; height: 28px;" src="imagens/matematica/1-9.png?resize=15%2C28" data-recalc-dims="1">.</p>
+<p>Então, a probabilidade de os halteres do primeiro par terem a mesma cor é de<img border="0" alt="" align="absMiddle" width="77" height="28" style="width: 77px; height: 28px;" src="imagens/matematica/com26_10.png?resize=77%2C28" data-recalc-dims="1">.</p>
+<p>A probabilidade de escolher outro halter qualquer, dado que já foram arrumados dois da mesma cor, é de <img border="0" alt="" align="absMiddle" width="15" height="28" style="width: 15px; height: 28px;" src="imagens/matematica/8-8.png?resize=15%2C28" data-recalc-dims="1">.</p>
+<p>A probabilidade de um quarto halter ter a mesma cor do terceiro é de <img border="0" alt="" align="absMiddle" width="15" height="28" style="width: 15px; height: 28px;" src="imagens/matematica/1-7.png?resize=15%2C28" data-recalc-dims="1"></p>
+<p>Então, a probabilidade de os halteres do segundo par terem a mesma cor é de<img border="0" alt="" align="absMiddle" width="77" height="28" style="width: 77px; height: 28px;" src="imagens/matematica/com26_8.png?resize=77%2C28" data-recalc-dims="1">.</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;">Para os outros três pares de halteres, o raciocínio é o mesmo. Observe:</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;">• Probabilidade de os halteres do terceiro par terem a mesma cor</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;"><img border="0" alt="" width="77" height="28" src="imagens/matematica/com26_6.png?resize=77%2C28" data-recalc-dims="1"></p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;">• Probabilidade de os halteres do quarto par terem a mesma cor</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;"><img border="0" alt="" width="77" height="28" src="imagens/matematica/com26_4.png?resize=77%2C28" data-recalc-dims="1"></p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;">• Probabilidade de os halteres do quinto par terem a mesma cor</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;"><img border="0" alt="" width="77" height="28" src="imagens/matematica/com26_2.png?resize=77%2C28" data-recalc-dims="1"></p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;">Então, a probabilidade de obter um armazenamento perfeito ao acaso equivale a:</p>
+<p><span mso-bidi-language:="" mso-fareast-language:="" mso-ansi-language:="" mso-bidi-font-family:="" mso-fareast-font-family:="" 9pt;="" black;="" verdana?,?sans-serif?;="" color:="" font-size:="" ?times="" new="" roman?;="" pt-br;="" en-us;="" ar-sa?="" style="line-height: 115%;"><img border="0" alt="" width="160" height="28" src="imagens/matematica/com26_1.png?resize=160%2C28" data-recalc-dims="1"></p></div>
+    </section></amp-accordion>
+  </body>
+</html>
