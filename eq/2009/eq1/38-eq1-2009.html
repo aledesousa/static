@@ -1,0 +1,74 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset='utf-8'>
+  <title>Questão 38 - 1º EQ 2009</title>
+  <script async src='https://cdn.ampproject.org/v0.js'></script>
+  <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
+  <link rel='canonical' href='/'>
+  <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+  <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
+    <style amp-custom>
+    /* these styles are not required for the samples to work */
+    :root {
+      --space-2: 0.5rem;
+      /* 16px */
+    }
+    body {font-family: Arial, sans-serif;
+                      font-size: 0.8em}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
+    .txtsuporte {border: 1px solid #000;
+                    padding: 10px;
+                    font-size: 0.85em;
+                    margin-top:5px}
+    .txtcreditos {text-align: right;font-size: 0.6em}
+    amp-accordion, .enunciado {
+      margin: var(--space-2);
+    }
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
+      display: inline-block; 
+      float: right; 
+      text-align: right} 
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
+  </style>
+</head><body>
+ <div class='enunciado'><p>Alguns animais, como o peixe elétrico, conseguem gerar corrente elétrica pela simples migração de íons de metais alcalinos através de uma membrana. O órgão elétrico desse peixe é formado por células chamadas de eletroplacas, que são similares às musculares, mas não se contraem. Essas células são discos achatados, nos quais uma das superfícies é inervada por terminações nervosas colinérgicas. Quando estimuladas, apenas a superfície inervada é despolarizada. Milhares de eletroplacas empilham-se em série formando conjuntos que, por sua vez, se dispõem em paralelo. </p>
+<p>O esquema abaixo, representando esses conjuntos, detalha também a estrutura básica da eletroplaca e mostra os potenciais de repouso da membrana e a sua inversão na face inervada, quando o nervo é estimulado. </p>
+<p><img class='responsive' height="299" alt='' width="587" border="0" src="imagens/Eletroplacas-_aurea_2.jpg?resize=587%2C299"></p>
+<p>Admita as seguintes condições:</p>
+<ul>
+<li>cada conjunto de eletroplacas em série é formado por 5000 células e existem 5 desses conjuntos em paralelo; </li>
+<li>esses 5 conjuntos em paralelo podem gerar uma intensidade total de corrente elétrica igual a <metricconverter w:st="on" productid="0,5 A"></metricconverter>0,5 A.</li>
+</ul>
+<p>Nesse caso, a potência máxima, em watts, que cada conjunto pode fornecer é igual a:</p>
+<p>(A) 50
+</p>
+<p>(B) 75</p>
+<p>(C) 150</p>
+<p>(D) 750</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
+    <section>
+      <h4>Resposta<span class='seta'></span></h4>
+      <div class='respostas'><p>Alternativa correta: (B)</p></div>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
+    <section>
+      <h4>Explicação<span class='seta'></span></h4>
+      <div class='respostas'>
+<p>Uma célula, quando estimulada, gera uma tensão de 150 mV. Logo, a tensão gerada em cada conjunto de eletroplacas é igual a</p>
+<p>5000x 150 x 10<sup>-3</sup> = 750 V. </p>
+ 
+ 
+<p>A corrente total <i>I</i> corresponde à soma das correntes <i>i</i> em cada um dos cinco conjuntos de 5000 células. Assim:</p>
+<p><img height="52" alt="" width="148" border="0" src="imagens/Q38_1.jpg?resize=148%2C52" data-recalc-dims="1"></p>
+<p>Com esses valores, calcula-se a potência: </p>
+<p><img height="25" alt="" width="198" border="0" src="imagens/Q38_2.jpg?resize=198%2C25" data-recalc-dims="1"></p></div>
+    </section></amp-accordion>
+  </body>
+</html>
