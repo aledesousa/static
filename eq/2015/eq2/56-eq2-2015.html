@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 56 - 2º EQ 2015</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -60,11 +62,11 @@
 <p>(C) facilitação para aquisição de dupla cidadania</p>
 <p>(D) elevação da remuneração da força de trabalho</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (B)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>O crescimento da economia brasileira na última década ocasionou, entre outros desdobramentos, o aumento da oferta de empregos em diversos setores produtivos e de serviços. Em paralelo, a política de elevação do salário mínimo repercutiu mais diretamente no aumento da remuneração de funções e postos de trabalho com exigência de menor qualificação ou com a possibilidade de aprendizado direcionado já no desempenho da função. Tal contexto veio a se converter em foco de atração para trabalhadores imigrantes pouco qualificados profissionalmente, originários de países americanos enfrentando situações variadas de crise e quadro recessivo. Os números mais expressivos envolvem imigrantes bolivianos e haitianos. As reportagens exemplificam as dificuldades de transporte e as expectativas com relação ao desejo de vida próspera em solo brasileiro. Muitos haitianos, jovens do sexo masculino, buscam oportunidades de emprego frente ao desastre que assolou seu país após o terremoto de 2010. Bolivianos dirigem-se, por exemplo, para São Paulo, onde, em determinados bairros de periferia, famílias inteiras de imigrantes dessa nacionalidade fixaram moradia.</p></div>
     </section></amp-accordion>

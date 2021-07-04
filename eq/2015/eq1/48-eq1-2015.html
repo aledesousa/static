@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 48 - 1º EQ 2015</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -60,11 +62,11 @@
 <p>(C) associativismo sindical</p>
 <p>(D) disparidade educacional</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (B)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>O elemento marcante na tela é a multidão de fisionomias que compunham, na visão da artista, o operariado paulistano na década de 1930. Os trabalhadores retratados apresentam traços fisionômicos e culturais coerentes com a grande imigração para a cidade ocorrida no final do século XIX e início do XX. Percebe-se a presença de feições de trabalhadores de origem europeia, asiática e africana, além de duas figuras femininas com véus cobrindo as suas cabeças, possivelmente representando os membros da comunidade sírio-libanesa. Dessa forma, a mensagem central da obra de Tarsila do Amaral é a da diversidade cultural da população paulistana naquele momento.</p></div>
     </section></amp-accordion>

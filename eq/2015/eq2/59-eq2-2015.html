@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 59 - 2º EQ 2015</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -60,11 +62,11 @@
 <p>(C) garantir a pluralidade política</p>
 <p>(D) fortalecer a identidade nacional</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (D)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>Um dos principais desafios do governo imperial do século XIX foi a construção da identidade nacional brasileira, de forma a torná-la significativamente distinta daquela associada à herança portuguesa. Em uma sociedade iletrada, a iconografia tinha papel particularmente importante como meio de comunicação de ideias, tendo sido a pintura histórica utilizada com a finalidade, apontada no texto, de contribuir para a construção de um glorioso passado nacional em comum, de maneira a soldar o imaginário popular com os grandes eventos coletivos. A imagem das duas telas apresentadas constitui bons exemplos desse caráter utilitário da pintura histórica. Em “A fala do trono”, a figura imponente do imperador é instrumento dessa construção identitária, fundamental em um regime monárquico no qual o sentimento de pertencimento ao coletivo social é indissociável da condição de súdito. Já a obra “Batalha Naval do Riachuelo” exemplifica uma série de pinturas que representam esse passado épico nacional, associando-o a guerras e a heróis do país, destacados na historiografia brasileira da época.</p></div>
     </section></amp-accordion>

@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 50 - 1º EQ 2016</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -68,11 +70,11 @@
 <p>(C) Argentina</p>
 <p>(D) Groenlândia</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (D)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>Na Imagem 1, um perfil de cabeça humana está representado de forma equilibradamente proporcional sobre uma representação do globo, de modo a fornecer um parâmetro da figura original. Na Imagem 2, é nítida a acentuada distorção de área nas porções extremas do perfil, referentes ao topo e à base da cabeça. Isso pode ser explicado pelo fato de que a projeção de Mercator é uma projeção cilíndrica tangente à linha do Equador. Isso significa que a única porção que mantém a equivalência de área entre representação gráfica e realidade é aquela situada na linha equatorial. Quanto mais longe dessa linha, maior será a distorção da área representada.Com base nessa informação, é possível inferir com segurança que o território das Américas cuja área será mais ampliada com o uso dessa projeção será a Groenlândia, por estar integralmente situada em uma região com elevadas latitudes.</p></div>
     </section></amp-accordion>

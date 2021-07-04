@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 46 - 1º EQ 2015</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -61,11 +63,11 @@
 <p>(C) modernização dos meios de transporte</p>
 <p>(D) enfraquecimento das instituições monárquicas</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (D)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>Após a Guerra do Paraguai (1864-1870), ampliaram-se as reivindicações e críticas de diversos grupos e segmentos sociais com relação ao governo monárquico brasileiro. As demandas por reformas políticas e sociais – fim da escravidão, federalismo, republicanismo, reforma eleitoral, por exemplo – defendiam mudanças sob a bandeira da modernização e da maior eficiência administrativa. O Rio de Janeiro, capital do Império, sofrera significativa expansão demográfica, o que se fez notar na proliferação de moradias coletivas e na ampliação da necessidade de serviços urbanos – iluminação das ruas, fornecimento de água, transportes, entre outros. Nesse contexto, a decisão do governo de cobrar a taxa de um vintém sobre a passagem de bondes puxados a burro desencadeou uma onda de protestos. A quantia, em termos absolutos, para os padrões da época era pequena; porém, no clima de insatisfação mais generalizada, no início da década de 1880, o aumento foi entendido como abusivo pelos usuários, gerando protestos e quebra-quebras. O governo revogou a taxa e a Revolta do Vintém, como veio a ser denominada, simbolizando a força das pressões de segmentos populares e favorecendo o clima de contestação contra a monarquia.</p></div>
     </section></amp-accordion>

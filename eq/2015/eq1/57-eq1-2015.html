@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,23 +29,23 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 57 - 1º EQ 2015</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+      <h2>Suporte do enunciado<span class='seta'></span></h2>
   <amp-carousel
     type='slides'
     layout='responsive'
@@ -60,11 +62,11 @@
 <p>(C) crescimento da riqueza nacional e elevação da concentração de renda</p>
 <p>(D) expansão do desenvolvimento econômico e elevação da remuneração salarial</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (C)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>No primeiro gráfico, referente ao PIB <i>per capita</i> entre 1960 e 2013, indica-se significativa elevação desse índice – de 7,33 para 17,96 – para o período situado entre 1960 e 1980. Essa situação denota que, nesse momento, na vigência dos Governos Militares, assistiu-se ao crescimento da riqueza nacional, tendo em vista que o produto interno bruto é uma das grandezas utilizadas para avaliar esse desempenho da economia. De fato, em especial devido aos efeitos das políticas de desenvolvimento, todos os setores da economia, a despeito de desequilíbrios e do endividamento externo, expandiram-se. No segundo gráfico, referente à desigualdade de renda associada ao coeficiente de Gini, para o período de 1960 a 2012, aponta-se para a elevação desse índice – de 0,54 para 0,64 – entre 1960 e 1989. Nesse caso, a elevação significa o aumento da desigualdade de renda. Comparando-se as análises dos gráficos, pode-se concluir que, se houve crescimento da riqueza nacional durante os Governos Militares, o mesmo não foi usufruído igualmente por todos os brasileiros. Depreende-se que houve aumento da concentração da renda, aspecto manifesto por outras medidas, entre as quais, o arrocho salarial e os beneficiamentos para o capital financeiro.</p></div>
     </section></amp-accordion>
