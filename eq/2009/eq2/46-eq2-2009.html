@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,20 +29,20 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 46 - 2º EQ 2009</h1>
  <div class='enunciado'><blockquote>
 <p>Ildenice Rita da Silva, de 33 anos, chegou a Brasília há 15 anos. Foi atrás da irmã, Denizelda de Carvalho,de 41, que morava na cidade desde a década de 70. Ildenice sonhava com um emprego melhor do que em Riachão das Neves, na Bahia, onde trabalhava na roça com a família. (…) De acordo com o Censo 2000, de 1995 a 2000, 15,6% das saídas do Nordeste tiveram como destino as cidades-satélites do Distrito Federal e os municípios goianos ao redor de Brasília. Além das promessas de emprego, uma política de distribuição de lotes, anteriormente iniciada, fez inchar o entorno de Brasília.</p>
 <p><span style="FONT-SIZE: xx-small; FONT-FAMILY: Optima">LISANDRA PARAGUASSÚ<br>Adaptado de <i style="FONT-SIZE: xx-small; FONT-FAMILY: Optima">O Globo</i>, 12/05/2002</span></p>
@@ -53,11 +55,11 @@
 <p>(C) terciarização – reordenamento territorial</p>
 <p>(D) metropolização – desemprego estrutural</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (B)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>O texto faz menção ao processo de migrações internas ocorrido no Brasil no final da década de <metricconverter productid="1950, a" w:st="on"></metricconverter>1950, a partir da transferência da capital do país para Brasília. Esse processo adquiriu significativa importância em função da política de assentamento de migrantes, desenvolvida com promessas de emprego e lotes. O objetivo era constituir em torno da capital um bolsão de mão-de-obra capaz de sustentar as demandas de emprego dos projetos de modernização do Centro-Oeste. Essa política, entretanto, segregava esses migrantes, tendo em vista que as áreas de moradia oferecidas eram de periferia e implicavam uma clara separação social no espaço da cidade.</p></div>
     </section></amp-accordion>

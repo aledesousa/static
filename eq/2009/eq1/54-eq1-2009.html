@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -27,20 +29,20 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h4 {padding: 5px; color: #000;} 
-    amp-accordion section h4 span {width:auto; 
+    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
+    amp-accordion section h2 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
-    amp-accordion section[expanded] h4 span::after {content: '▲ '}
-    amp-accordion.acc-texto h4::before {content: '📄 '}
-    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h4::before {content: '👁️ '}
-    amp-accordion.acc-comentario h4::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
+    amp-accordion section[expanded] h2 span::after {content: '▲ '}
+    amp-accordion.acc-texto h2::before {content: '📄 '}
+    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h2::before {content: '👁️ '}
+    amp-accordion.acc-comentario h2::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 54 - 1º EQ 2009</h1>
  <div class='enunciado'><blockquote>
 <p>O olhar agudo de Machado de Assis capta de forma natural as alterações da dinâmica social – alterações que culminariam na abolição da escravidão, em 1888, e na proclamação da República, no ano seguinte. Um dos melhores retratos que Machado faz daquele momento está nesta página de Esaú e Jacó:</p>
 <p>“A capital oferecia ainda aos recém-chegados um espetáculo magnífico. (…) Cascatas de idéias de invenções, de concessões rolavam todos os dias, sonoras e vistosas, para se fazerem contos de réis, centenas de contos, milhares, milhares de milhares, milhares de milhares de milhares de contos de réis.</p>
@@ -54,11 +56,11 @@
 <p>(C) Tarifas Alves Branco – urbanização e concentração de renda</p>
 <p>(D) Convênio de Taubaté – endividamento e especulação financeira</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h4>Resposta<span class='seta'></span></h4>
+      <h2>Resposta<span class='seta'></span></h2>
       <div class='respostas'><p>Alternativa correta: (A)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h4>Explicação<span class='seta'></span></h4>
+      <h2>Explicação<span class='seta'></span></h2>
       <div class='respostas'>
 <p>A leitura do texto de Machado de Assis permite identificar processos de avanço da política financeira brasileira no final do século XIX, pela alusão que faz ao crescimento dos investimentos na bolsa de valores e à constituição de um clima de euforia em torno dos lucros fáceis que daí decorriam – ação econômica denominada encilhamento. Essa euforia acabou por provocar uma alteração no desenvolvimento econômico, com o desvio dos capitais acumulados na economia do café para os investimentos financeiros, mantendo assim a crise que já se apresentava como um dado concreto, visível na inflação, e impedindo que outros setores produtivos tivessem sua produção iniciada ou implementada, especialmente o setor industrial, que sofreu várias falências.</p></div>
     </section></amp-accordion>
