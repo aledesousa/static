@@ -18,7 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
      amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,18 +42,16 @@
     amp-accordion.acc-comentario h4::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate disable-session-states>
-    <section>
-      <h4>Suporte do enunciado<span class='seta'></span></h4>
+</head><body><h1 class='questao'>Questão 22 - 2º EQ 2017</h1>
+ <section>
   <amp-carousel
     type='slides'
     layout='responsive'
-    width='4'
-    height='3'
+    width='3'
+    height='1'
     lightbox>
-    <div><amp-img layout='fill' width='3' height='4' class='aligncenter' src='imagens/img22-mat-eq2-2017.jpg' alt=''></img-amp></div></amp-carousel>
-  </section></amp-accordion><div class='enunciado'><p>Observe a matriz:</p>
+    <div><amp-img layout='fill' width='1' height='1' class='aligncenter' src='imagens/img22-mat-eq2-2017.jpg' alt=''></img-amp></div></amp-carousel>
+  </section><div class='enunciado'><p>Observe a matriz:</p>
 
 <p>Para que o determinante dessa matriz seja nulo, o maior valor real de t deve ser igual a:<br>
 (A) 1<br>
@@ -64,15 +64,14 @@
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
-      <div class='respostas'><p>
-Para o cálculo do determinante, basta realizar a operação de subtração entre o produto dos elementos que compõem a diagonal principal (a<sub>11</sub> × a<sub>22</sub>) e o produto dos elementos da diagonal secundária (a<sub>12</sub> × a<sub>21</sub>):</p>
+      <div class='respostas'><p>Para o cálculo do determinante, basta realizar a operação de subtração entre o produto dos elementos que compõem a diagonal principal (a<sub>11</sub> × a<sub>22</sub>) e o produto dos elementos da diagonal secundária (a<sub>12</sub> × a<sub>21</sub>):</p>
 <p>(a<sub>11</sub> × a<sub>22</sub>) − (a<sub>12</sub> × a<sub>21</sub>) = 0<br>
 (3 + t) × (t − 4) − (−12) = 0<br>
 3t − 12 + t<sup>2</sup> − 4t + 12 = 0<br>
 t<sup>2</sup> − t = 0<br>
 t (t − 1) = O<br>
 t = 0 ou t = 1<br>
-O maior valor real de t, portanto, é 1.</p></img-amp></div>
+O maior valor real de t, portanto, é 1.</p></div>
     </section></amp-accordion>
   </body>
 </html>
