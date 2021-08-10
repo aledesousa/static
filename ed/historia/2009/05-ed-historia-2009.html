@@ -5,9 +5,8 @@
   <title>Questão 05 - História - ED 2009</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 05 - História - ED 2009</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1ow87n_yWGnmmWq_PJBx4F0F-SaqKFF8W'></amp-img></div></section></amp-accordion><div class='enunciado'><p>O mapa político apresentado demonstra a fragmentação ocorrida na América colonial espanhola, a partir dos movimentos de independência. Esse processo resultou não só de fatores internos, mas também de fatores externos às colônias, como a tentativa de restauração levada a cabo pela Santa Aliança, utilizando como regra básica o princípio de legitimidade enunciado no Congresso de Viena (1814-1815).</p><p>Cite duas conseqüências políticas ou territoriais para a Europa pós-napoleônica da utilização do princípio de legitimidade. Em seguida, explique a influência desse princípio nas lutas pela independência das colônias espanholas na América.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1ow87n_yWGnmmWq_PJBx4F0F-SaqKFF8W'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>O mapa político apresentado demonstra a fragmentação ocorrida na América colonial espanhola, a partir dos movimentos de independência. Esse processo resultou não só de fatores internos, mas também de fatores externos às colônias, como a tentativa de restauração levada a cabo pela Santa Aliança, utilizando como regra básica o princípio de legitimidade enunciado no Congresso de Viena (1814-1815).</p><p>Cite duas conseqüências políticas ou territoriais para a Europa pós-napoleônica da utilização do princípio de legitimidade. Em seguida, explique a influência desse princípio nas lutas pela independência das colônias espanholas na América.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Duas das conseqüências:</p><ol><li> dissolução da Confederação do Reno
@@ -58,7 +63,7 @@
 consideradas legítimas e restaurando-se as fronteiras anteriores a 1791</li></ol><p>Explicação: Esse princípio, por tentar frear os processos de autonomia que haviam se instalado na
 região, ampliou ainda mais as insatisfações dos diferentes setores das aristocracias coloniais que,
 organizadas em cabildos livres, comandaram as lutas pela independência dos vice-reinos coloniais.</p></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>O Princípio da Legitimidade, base da tentativa de Restauração do Antigo Regime, implicou a dissolução da Confederação do Reno, o retorno ao poder das dinastias européias, destronadas durante a expansão napoleônica, além da reorganização do mapa europeu, que levou em consideração os direitos das dinastias tradicionais e restaurou fronteiras anteriores a 1791. Com isso, a aristocracia européia, antes aterrorizada com a divulgação dos ideais liberais franceses, assume aparentemente o controle político da Europa e de seus domínios coloniais.</p><p>Nas colônias espanholas, entretanto, a aplicação desse princípio busca frear os processos de autonomia que haviam se instalado na região após a invasão francesa da metrópole, no início do século XIX. A possibilidade do retorno ao pacto colonial levou à rebelião diferentes setores das aristocracias coloniais que, organizadas em cabildos livres, comandaram as lutas pela independência dos vice-reinos espanhóis na América.</p></div>

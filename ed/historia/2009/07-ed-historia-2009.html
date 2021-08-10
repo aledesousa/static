@@ -5,9 +5,8 @@
   <title>Questão 07 - História - ED 2009</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,17 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 07 - História - ED 2009</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-
-<div class='suporte'><div class='txtsuporte'>A Primeira Guerra Mundial não resolveu nada. As esperanças que gerou – de um mundo pacífico e democrático de Estados-nação sob a Liga das Nações; de um retorno à economia mundial de 1913; mesmo (entre os que saudaram a Revolução Russa) de capitalismo mundial derrubado dentro de anos ou meses por um levante dos oprimidos – logo foram frustradas. O passado estava fora de alcance, o futuro fora adiado, o presente era amargo, a não ser por uns poucos anos passageiros em meados da década de 1920.</div><p class='txtcreditos'>ERIC J. HOBSBAWM
-A era dos extremos: o breve século XX (1914-1991)São Paulo: Companhia das Letras, 1995.</p></div></section></amp-accordion><div class='enunciado'><p>O período entre-guerras (1919-1939) começou com uma combinação de esperança e ressentimento. Diversos acordos foram impostos pelos Estados vencedores aos derrotados. O mais conhecido deles é o Tratado de Versalhes de 1919. Outros tratados complementares também foram assinados e igualmente tiveram grande importância para a geopolítica mundial.</p><p>Indique duas transformações na geopolítica mundial decorrentes desses tratados complementares. Em seguida, cite dois países que foram submetidos a eles.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>O período entre-guerras (1919-1939) começou com uma combinação de esperança e ressentimento. Diversos acordos foram impostos pelos Estados vencedores aos derrotados. O mais conhecido deles é o Tratado de Versalhes de 1919. Outros tratados complementares também foram assinados e igualmente tiveram grande importância para a geopolítica mundial.</p><p>Indique duas transformações na geopolítica mundial decorrentes desses tratados complementares. Em seguida, cite dois países que foram submetidos a eles.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Duas das transformações:</p><ol><li> desaparecimentos de impérios centrais multiétnicos e pluriculturais, como o austro-húngaro e o
@@ -64,16 +67,16 @@ também por países surgidos da desagregação do império austro-húngaro</li><
 </li><li> Hungria
 </li><li> Bulgária
 </li><li> Turquia</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
-      <div class='respostas'><p>Os acordos de paz assinados ao término da Primeira Guerra Mundial consolidaram a mudança do modelo de organização política, com o declínio dos Estados multinacionais e a afirmação do modelo de Estado-nação. Os tratados de paz complementares ao de Versalhes foram determinantes para essas mudanças na medida em que replanejaram as fronteiras políticas da Europa. Esses tratados foram submetidos à Áustria, Hungria, Bulgária e Turquia, e algumas transformações na geopolítica mundial decorrentes deles são:</p><ul><li>  desaparecimentos de impérios centrais multiétnicos e pluriculturais, como o austro-húngaro e o turco-otomano;
+      <div class='respostas'><p>Os acordos de paz assinados ao término da Primeira Guerra Mundial consolidaram a mudança do modelo de organização política, com o declínio dos Estados multinacionais e a afirmação do modelo de Estado-nação. Os tratados de paz complementares ao de Versalhes foram determinantes para essas mudanças na medida em que replanejaram as fronteiras políticas da Europa. Esses tratados foram submetidos à Áustria, Hungria, Bulgária e Turquia, e algumas transformações na geopolítica mundial decorrentes deles são:</p><p> desaparecimentos de impérios centrais multiétnicos e pluriculturais, como o austro-húngaro e o turco-otomano;
 
-</li><li>  surgimento de novos Estados no leste europeu: Tchecoeslováquia, Polônia, Iugoslávia, além da Áustria e da Hungria, separadas uma da outra;
+ surgimento de novos Estados no leste europeu: Tchecoeslováquia, Polônia, Iugoslávia, além da Áustria e da Hungria, separadas uma da outra;
 
-</li><li>  entrega de territórios anteriormente turcos ao Reino Unido (Palestina, Jordânia e Mesopotâmia) e à França (Líbano e Síria) pela Liga das Nações;
+ entrega de territórios anteriormente turcos ao Reino Unido (Palestina, Jordânia e Mesopotâmia) e à França (Líbano e Síria) pela Liga das Nações;
 
-</li><li>  reforço da política de isolamento imposta à Rússia, com a criação de um cordão sanitário, formado também por países surgidos da desagregação do império austro-húngaro.</li></ul></div>
+ reforço da política de isolamento imposta à Rússia, com a criação de um cordão sanitário, formado também por países surgidos da desagregação do império austro-húngaro.</p></div>
     </section></amp-accordion>
   </body>
 </html>

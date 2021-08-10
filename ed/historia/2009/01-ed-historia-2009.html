@@ -5,9 +5,8 @@
   <title>Questão 01 - História - ED 2009</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,18 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 01 - História - ED 2009</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-
-<div class='suporte'><div class='txtsuporte'>As relações entre a pregação protestante e as estruturas políticas então existentes foram muitas vezes decisivas tanto para os destinos da pregação em si quanto para os rumos afinal tomados pela organização das novas Igrejas.</div><p class='txtcreditos'>RANCISCO JOSÉ CALAZANS FALCON
-In: RODRIGUES, Antonio Edmilson M. e FALCON, Francisco José C.
-Tempos modernos: ensaios de história cultural. Rio de Janeiro: Civilização Brasileira, 2000</p></div></section></amp-accordion><div class='enunciado'><p>O texto acima se refere a processos da Reforma Religiosa ocorridos na Europa. O movimento reformista, entretanto, conheceu diferentes reações em distintas áreas.</p><p>Indique duas causas para a Reforma Religiosa na Inglaterra e uma conseqüência econômica desse movimento.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>O texto acima se refere a processos da Reforma Religiosa ocorridos na Europa. O movimento reformista, entretanto, conheceu diferentes reações em distintas áreas.</p><p>Indique duas causas para a Reforma Religiosa na Inglaterra e uma conseqüência econômica desse movimento.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Duas das causas:</p><ol><li> interesse do rei Henrique VIII nas terras da Igreja
@@ -63,18 +65,18 @@ diretamente a ele
 interdição de seu casamento com Ana Bolena</li></ol><p>Uma das conseqüências:</p><ol><li> aceleração do processo de cercamento dos campos
 </li><li> início da projeção da Inglaterra como potência econômica e naval na Europa
 </li><li> confisco e leilão das terras da Igreja Católica, ampliando os recursos disponíveis à monarquia</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
-      <div class='respostas'><p>O processo da Reforma Religiosa foi um dos acontecimentos mais relevantes que possibilitaram o advento da modernidade em toda a Europa ocidental. O reformismo religioso inglês é um dos mais conhecidos, e sua importância se deve a razões tanto políticas quanto econômicas: internamente a Inglaterra fortaleceu a burguesia e submeteu a nova Igreja ao Estado. Dentre as causas que motivaram o movimento de Reforma na Inglaterra estão:</p><ul><li>    interesse do rei Henrique VIII nas terras da Igreja;
+      <div class='respostas'><p>O processo da Reforma Religiosa foi um dos acontecimentos mais relevantes que possibilitaram o advento da modernidade em toda a Europa ocidental. O reformismo religioso inglês é um dos mais conhecidos, e sua importância se deve a razões tanto políticas quanto econômicas: internamente a Inglaterra fortaleceu a burguesia e submeteu a nova Igreja ao Estado. Dentre as causas que motivaram o movimento de Reforma na Inglaterra estão:</p><p> interesse do rei Henrique VIII nas terras da Igreja;
 
-</li><li>    interesse da burguesia na queda de taxas e impostos;
+ interesse da burguesia na queda de taxas e impostos;
 
-</li><li>    interesse da burguesia em ampliar o seu poder no Parlamento;
+ interesse da burguesia em ampliar o seu poder no Parlamento;
 
-</li><li>    interesse do rei em fortalecer sua autoridade a partir da criação de uma Igreja subordinada diretamente a ele;
+ interesse do rei em fortalecer sua autoridade a partir da criação de uma Igreja subordinada diretamente a ele;
 
-</li><li>    não concessão da anulação do casamento do rei com Catarina de Aragão pelo Papa e conseqüente interdição de seu casamento com Ana Bolena.</li></ul><p>É importante destacar que algumas conseqüências econômicas desse movimento, como o cercamento dos campos, a consolidação da Inglaterra como potencia naval e a obtenção de recursos por parte do Estado através do confisco de bens da Igreja Católica, foram fundamentais ao posterior desenvolvimento do capitalismo.</p></div>
+ não concessão da anulação do casamento do rei com Catarina de Aragão pelo Papa e conseqüente interdição de seu casamento com Ana Bolena.</p><p>É importante destacar que algumas conseqüências econômicas desse movimento, como o cercamento dos campos, a consolidação da Inglaterra como potencia naval e a obtenção de recursos por parte do Estado através do confisco de bens da Igreja Católica, foram fundamentais ao posterior desenvolvimento do capitalismo.</p></div>
     </section></amp-accordion>
   </body>
 </html>
