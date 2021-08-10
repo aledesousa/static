@@ -5,9 +5,8 @@
   <title>Questão 01 - História - ED 2017</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 01 - História - ED 2017</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=15pn5CScXUt1NZlHOoRrzlMZaOcixJ5fC'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Os retratos de indígenas acima revelam algumas das intenções por parte dos agentes da colonização, como a Coroa, a Igreja e os colonos, diante das populações nativas na América Portuguesa no século XVII.</p><p>Considerando as imagens e o texto, aponte um objetivo econômico dos colonizadores que explique a forma pela qual os aliados Tupis foram retratados. Em seguida, cite uma forma de resistência indígena à colonização que justifique a representação atribuída aos Tapuias.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=15pn5CScXUt1NZlHOoRrzlMZaOcixJ5fC'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Os retratos de indígenas acima revelam algumas das intenções por parte dos agentes da colonização, como a Coroa, a Igreja e os colonos, diante das populações nativas na América Portuguesa no século XVII.</p><p>Considerando as imagens e o texto, aponte um objetivo econômico dos colonizadores que explique a forma pela qual os aliados Tupis foram retratados. Em seguida, cite uma forma de resistência indígena à colonização que justifique a representação atribuída aos Tapuias.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Um dos objetivos:</p><ol><li> controle de terras
@@ -58,7 +63,7 @@
 </li><li> rejeição da catequese
 </li><li> fugas e deslocamento das tribos
 </li><li> aliança com outros colonizadores europeus, como os franceses</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>A partir da análise de imagens de época e de texto analítico contemporâneo, o candidato deverá ser capaz de apontar um objetivo econômico dos colonizadores na América Portuguesa, bem como reconhecer uma das formas de resistência dos indígenas à colonização. As pinturas do holandês Albert Eckhout (1610-1665) são um importante registro do encontro entre diferentes culturas que ocorreu na sociedade colonial no século XVII. Conforme salienta o trecho do livro de João Pacheco Oliveira e Carlos Augusto da Rocha Freire, as pinturas de Eckout retratam tupis e tapuios com elementos simbólicos reveladores de diferenciações entre os grupos nativos aliados e inimigos aos olhos europeus. Desse modo, as telas revelam algumas das intenções dos agentes da colonização diante das populações indígenas. Tais representações são ainda ricas fontes para perceber comportamentos indígenas condenados pelos colonizadores como, por exemplo, a prática do canibalismo, associada nas pinturas aos tapuios.</p></div>
