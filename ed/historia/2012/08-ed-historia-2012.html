@@ -5,9 +5,8 @@
   <title>Questão 08 - História - ED 2012</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 08 - História - ED 2012</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1BNaEtekyUcZf7ydkQDjz_XEzuJWE3wNj'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Com o fim da bipolaridade política, avançaram os processos de integração entre países. Um exemplo disso é o Mercosul, criado em 1991.</p><p>O quadro acima ilustra o PIB-PPC (Paridade do Poder de Compra) e o IDH dos países do Mercosul, para o ano de 2007, com a entrada da Venezuela.</p><p>Indique dois objetivos econômicos da formação do Mercosul. Aponte, também, uma dificuldade para a consolidação desse bloco.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1BNaEtekyUcZf7ydkQDjz_XEzuJWE3wNj'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Com o fim da bipolaridade política, avançaram os processos de integração entre países. Um exemplo disso é o Mercosul, criado em 1991.</p><p>O quadro acima ilustra o PIB-PPC (Paridade do Poder de Compra) e o IDH dos países do Mercosul, para o ano de 2007, com a entrada da Venezuela.</p><p>Indique dois objetivos econômicos da formação do Mercosul. Aponte, também, uma dificuldade para a consolidação desse bloco.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Dois dos objetivos:</p><ol><li> redução de tarifas alfandegárias
@@ -59,7 +64,7 @@
 </li><li> diferença da força econômica entre os Estados-membros
 </li><li> reflexo das crises internacionais nas economias dos países do bloco
 </li><li> políticas nacionais protecionistas de determinados setores da economia</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>A nova realidade que se impôs a partir da crise do socialismo real – e, consequentemente, do fim da bipolarização política – definiu novos rumos para as relações políticas e econômicas entre as nações do mundo no final do século XX. A disputa por espaços econômicos provocou um movimento de integração visando à redução de tarifas alfandegárias, à formação de mercados comuns comerciais, à construção de parcerias complementares, à livre circulação de bens, serviços e fatores produtivos e à adoção de políticas comerciais comuns a partir da adaptação das legislações existentes.</p><p>Na América do Sul, o Mercado Comum do Sul – Mercosul – foi estabelecido em 1991, tendo como membros Brasil, Argentina, Uruguai e Paraguai. Posteriormente, juntou-se ao grupo a Venezuela (2007). Bolívia, Chile, Equador e Colômbia são agregados em diferentes momentos como Estados associados. Apesar das conquistas, o Mercosul enfrenta dificuldades para atingir seus objetivos, dentre elas, a prevalência dos países-membros que possuem economias mais estáveis, o que gera diferenciação da força econômica entre eles. Além disso, as crises internacionais têm-se refletido pesadamente sobre as economias dos países do bloco, criando ou ampliando políticas protecionistas para determinados setores ou atividades e dificultando a unificação da legislação, a construção de parcerias e a manutenção das políticas livre-cambistas dentro do grupo.</p></div>

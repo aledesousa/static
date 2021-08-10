@@ -5,9 +5,8 @@
   <title>Questão 01 - História - ED 2012</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 01 - História - ED 2012</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1uvRkl0ARmc79_twOL1FbpYzyH2Wlcc3Z'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Os descobrimentos marítimos dos séculos XV e XVI foram processos importantes para a construção do mundo moderno. A chegada dos portugueses ao Brasil decorre dos projetos que levaram diferentes nações europeias às grandes navegações.</p><p>Formule uma resposta à pergunta do autor, ao final do texto: qual foi a finalidade da expedição de Cabral?</p><p>Em seguida, cite dois motivos que justificam as grandes navegações marítimas nos séculos XV e XVI.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1uvRkl0ARmc79_twOL1FbpYzyH2Wlcc3Z'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Os descobrimentos marítimos dos séculos XV e XVI foram processos importantes para a construção do mundo moderno. A chegada dos portugueses ao Brasil decorre dos projetos que levaram diferentes nações europeias às grandes navegações.</p><p>Formule uma resposta à pergunta do autor, ao final do texto: qual foi a finalidade da expedição de Cabral?</p><p>Em seguida, cite dois motivos que justificam as grandes navegações marítimas nos séculos XV e XVI.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Garantir a posse de terras a oeste do Atlântico que pertenceriam a Portugal, segundo o Tratado de
@@ -58,7 +63,7 @@ Tordesilhas, como estratégia para controle da rota atlântica que levava às Í
 </li><li> busca de terras pela nobreza decadente
 </li><li> busca de matérias-primas rentáveis para o comércio europeu
 </li><li> afirmação do poder territorial por parte dos Estados modernos recém-implantados</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>Conhecedora das possibilidades da existência de terras a oeste do Atlântico que pertenceriam a Portugal, segundo o Tratado de Tordesilhas, a Coroa portuguesa tinha interesse em garantir a posse dessas terras como estratégia para o controle – virtual monopólio – da rota atlântica que levava às Índias Orientais, região das famosas especiarias, fonte de lucros para as burguesias e Estados nacionais europeus modernos.</p><p>Os séculos XV e XVI caracterizam-se pelo chamado “desencravamento planetário”, movimento que levou os recém-implantados Estados europeus a se lançarem nas navegações marítimas – pelo oceano Atlântico – à procura de soluções para a crise do feudalismo. Governos e setores da burguesia mercantil e da nobreza interessavam-se, dentre outras coisas, em encontrar novas rotas marítimas que os levassem às regiões das especiarias orientais; em buscar metais preciosos, matéria-prima para a manutenção do comércio e cunhagem das moedas; em encontrar novas terras para uma nobreza territorial enfraquecida com a crise feudal; em descobrir matérias-primas e produtos exóticos com valor no comércio europeu. Todo esse processo acabaria também por fortalecer os soberanos modernos e a Igreja Católica, que perdia fiéis com o processo das reformas religiosas.</p></div>
