@@ -5,9 +5,8 @@
   <title>Questão 03 - História - ED 2005</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,18 +36,20 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 03 - História - ED 2005</h1>
  <div class='enunciado'><p>Em fevereiro de 2004, o Haiti foi manchete de jornais e revistas, em função da saída de seu primeiro presidente
 eleito de forma direta, Jean-Bertrand Aristide, frente à crescente oposição interna. A história de lutas no Haiti
 começou, no entanto, no final do século XVIII, quando ocorreram os primeiros movimentos de resistência à
 dominação francesa. Somente em 1804, após mais de dez anos de conflitos, essa colônia conquistou sua
 independência, passando a se chamar Haiti.</p><p>A) Identifique o episódio da conjuntura internacional que influenciou, em agosto de 1791, no Haiti, o levante
 contra a dominação dos franceses e justifique sua resposta.</p><p>B) Aponte a característica que distinguiu o processo de independência do Haiti do das outras colônias
-americanas e um reflexo dessa característica sobre as elites brasileiras da primeira metade do século XIX.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+americanas e um reflexo dessa característica sobre as elites brasileiras da primeira metade do século XIX.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>A) Revolução Francesa. Ao proclamar a igualdade de direitos entre os cidadãos, a Revolução Francesa não
