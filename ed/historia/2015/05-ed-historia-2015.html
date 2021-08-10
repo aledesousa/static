@@ -5,9 +5,8 @@
   <title>Questão 05 - História - ED 2015</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,21 +36,30 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 05 - História - ED 2015</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=13UxA6bnkVkLqQVk2VsBJ1j-O383f4bVe'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Observe as obras de pintores brasileiros reproduzidas acima. A primeira se insere no contexto do Romantismo, no século XIX, e a segunda no do Modernismo, no século XX, movimentos culturais que difundiram características e símbolos distintos para a identidade nacional.</p><p>A partir de elementos presentes nas pinturas, indique uma proposta do Romantismo e uma do Modernismo que explicitem a forma de cada um representar a composição étnica do povo brasileiro.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=13UxA6bnkVkLqQVk2VsBJ1j-O383f4bVe'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Observe as obras de pintores brasileiros reproduzidas acima. A primeira se insere no contexto do Romantismo, no século XIX, e a segunda no do Modernismo, no século XX, movimentos culturais que difundiram características e símbolos distintos para a identidade nacional.</p><p>A partir de elementos presentes nas pinturas, indique uma proposta do Romantismo e uma do Modernismo que explicitem a forma de cada um representar a composição étnica do povo brasileiro.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Uma das propostas do Romantismo:</p><ol><li> idealização do indígena como símbolo nacional
 </li><li> ênfase da presença portuguesa na ação colonizadora</li></ol><p>Uma das propostas do Modernismo:</p><ol><li> afirmação do caráter miscigenado do povo
 </li><li> valorização da presença de negros e mulatos entre os trabalhadores</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>Movimentos culturais de naturezas distintas, o Romantismo e o Modernismo, nas suas manifestações nas artes e na literatura, tematizaram a sociedade brasileira, elaborando símbolos, referências e representações para a identidade nacional. Imagens do povo brasileiro relacionadas à sua composição étnica, à língua, à história, às tradições orais e escritas e a variadas práticas culturais foram construídas e difundidas, especialmente por meio de obras de arte, textos literários e ensaísticos. A pintura de Victor Meirelles, “Primeira missa no Brasil”, por exemplo, datada de 1860, integra o conjunto de pinturas históricas associadas ao Romantismo. Ao retratar um dos episódios considerados fundadores da história do Brasil, destaca o indígena na qualidade de habitante originário da terra e da nação, além de valorizar a presença portuguesa, sua ação colonizadora e civilizadora, por meio da expansão da fé católica, na formação do povo brasileiro. A tela de Candido Portinari, “Café”, datada de 1935, por sua vez, é um exemplo dos padrões estéticos associados ao Modernismo. Nela, exibe-se a lavoura do café, valorizando seus trabalhadores braçais, com a presença de negros e mulatos, e também o caráter miscigenado do povo brasileiro.</p></div>

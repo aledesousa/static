@@ -5,9 +5,8 @@
   <title>Questão 09 - História - ED 2015</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 09 - História - ED 2015</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1EMhP_vXY9mzyt4NxDLl20UimLi8E7nFH'></amp-img></div></section></amp-accordion><div class='enunciado'><p>O Holocausto vem sendo cada vez mais associado à memória histórica de sociedades europeias.</p><p>Indique duas repercussões do Holocausto para o contexto internacional posterior ao fim da Segunda Guerra Mundial (1939-1945).</p><p>Indique, também, a importância simbólica da criação de memoriais como o citado na reportagem.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1EMhP_vXY9mzyt4NxDLl20UimLi8E7nFH'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>O Holocausto vem sendo cada vez mais associado à memória histórica de sociedades europeias.</p><p>Indique duas repercussões do Holocausto para o contexto internacional posterior ao fim da Segunda Guerra Mundial (1939-1945).</p><p>Indique, também, a importância simbólica da criação de memoriais como o citado na reportagem.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Duas das repercussões:</p><ol><li> criminalização internacional do nazismo
@@ -57,7 +62,7 @@
 </li><li> denúncia e condenação internacional, no contexto do Tribunal de Nuremberg, dos crimes
 contra a humanidade cometidos pelo Estado Nazista</li></ol><p>Uma das possibilidades:</p><ol><li> promover a valorização das memórias e o reconhecimento dos crimes cometidos para as novas gerações
 </li><li> estimular a condenação de ações de perseguição e de extermínio, em especial os genocídios</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>A ascensão do governo nazista na Alemanha viabilizou um conjunto de ações militaristas e expansionistas que culminaram na eclosão da Segunda Guerra Mundial em 1939. Nos territórios alemães e nos que vieram a ser controlados e ocupados pelo nazismo, implantaram-se políticas de perseguição contra grupos considerados ameaças e/ou inimigos, com destaque para judeus, comunistas, homossexuais, ciganos, entre outros. Particularmente com relação aos judeus, implantou-se a “solução final”, destinada à promoção da reclusão e do extermínio desses grupos em campos de concentração e guetos. Com o fim da guerra e a derrota do Eixo, formado por Alemanha, Itália e Japão, os crimes de guerra associados ao extermínio de judeus e de outros grupos foram denunciados e apurados, tendo sido tal genocídio configurado como Holocausto. Entre as repercussões imediatas do Holocausto, destacaram-se: convocação do Tribunal de Nuremberg, em que os crimes cometidos por autoridades nazistas foram apurados e julgados, promovendo a criminalização internacional dessa ideologia e dessa prática política; reforço de ações de valorização dos direitos dos povos no sentido da condenação de quaisquer ações discriminatórias e persecutórias de raças e etnias; fortalecimento da proposta de criação do Estado de Israel, reconhecido pela ONU em 1947. Na atualidade, a história e a memória do Holocausto integram museus e memoriais em diversos países do mundo, em especial os diretamente afetados por esse genocídio, como exemplifica o texto da reportagem. A existência desses memoriais presta homenagem às vítimas no sentido de, por meio das lembranças, evitar que as atrocidades então cometidas sejam esquecidas, estimulando também ações de repúdio e de denúncia contra atos daquela natureza ou similares.</p></div>

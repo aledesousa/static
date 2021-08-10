@@ -5,9 +5,8 @@
   <title>Questão 09 - História - ED 2016</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 09 - História - ED 2016</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1OhrxAkib_h7AO2Sso0SsitfrXbuEoTH4'></amp-img></div></section></amp-accordion><div class='enunciado'><p>As maneiras de apresentar povos e territórios possuem variações históricas associadas às relações estabelecidas entre sociedades e culturas. As imagens acima sobre o continente africano ilustram essas variações.</p><p>A partir da comparação entre as imagens, identifique a principal diferença quanto a essas representações do continente africano. Em seguida, cite um processo histórico contemporâneo que explique a diferença de perspectiva entre a imagem 1 e a imagem 2.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1OhrxAkib_h7AO2Sso0SsitfrXbuEoTH4'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>As maneiras de apresentar povos e territórios possuem variações históricas associadas às relações estabelecidas entre sociedades e culturas. As imagens acima sobre o continente africano ilustram essas variações.</p><p>A partir da comparação entre as imagens, identifique a principal diferença quanto a essas representações do continente africano. Em seguida, cite um processo histórico contemporâneo que explique a diferença de perspectiva entre a imagem 1 e a imagem 2.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Principal diferença: a imagem 1 retrata a fauna típica da África enfatizando seu aspecto natural e exótico, enquanto
@@ -62,7 +67,7 @@ a imagem 2 mostra rostos e tipos humanos, denotando a valorização da diversida
 popular e a defesa da pluralidade
 </li><li> movimentos de descolonização na África, associados à valorização e ao reconhecimento da soberania
 e das identidades dos povos africanos</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>As variadas formas de apresentar e caracterizar povos e sociedades africanas dependeram, entre outros aspectos, das relações estabelecidas, sobretudo, com as sociedades europeias. Alvo de processos de conquista e colonização, de forma mais acentuada entre os séculos XV e XX, as sociedades africanas foram representadas em textos e imagens variados, fortemente marcados por perspectivas estereotipadas, racialistas e preconceituosas, muitas delas justificadoras e viabilizadoras das ações de exploração de suas riquezas hidrominerais, de sua mão de obra e de suas potencialidades comerciais. As imagens em análise ilustram diferenças de representação significativas. A imagem 1 associa o continente africano ao exotismo de sua natureza e de sua fauna; já a imagem 2 destaca sua diversidade humana e sociocultural. Mesmo sendo imagens que circulam simultaneamente na internet na atualidade, as diferenças entre ambas apontam para mudanças históricas que afetaram as sociedades africanas no decorrer do século XX e que interferiram na cada vez maior valorização da diversidade étnica e cultural dos povos africanos. Entre essas mudanças, encontram-se: os movimentos de descolonização na África, associados ao reconhecimento da soberania e das identidades dos povos africanos; a ampliação das críticas internacionais às teorias raciais e ao etnocentrismo, após a Segunda Guerra Mundial (1939-1945); a condenação dos efeitos do neocolonialismo; a difusão do pan-africanismo; as repercussões internacionais do fim do Apartheid na criminalização e extinção de práticas de segregação racial; a valorização das heranças culturais africanas em sociedades americanas e europeias; os desdobramentos simbólicos da Primavera Árabe no norte da África, no que concerne à mobilização popular e à defesa da pluralidade; e, por fim, a revisão e divulgação das histórias dos povos africanos, por meio da historiografia e da literatura.</p></div>

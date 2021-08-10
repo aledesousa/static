@@ -5,9 +5,8 @@
   <title>Questão 08 - História - ED 2016</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 08 - História - ED 2016</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1B4eZx6slC5-vbUExmPiJv47KYucMAkxm'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Variadas foram as repercussões internacionais à deposição do Presidente João Goulart, em abril de 1964, como expressam os depoimentos citados.</p><p>Considerando a natureza do movimento que depôs o presidente brasileiro em 1964, identifique a principal diferença entre o posicionamento do secretário de Estado norte-americano e o do deputado mexicano. Em seguida, apresente um aspecto do contexto internacional da época que explique o posicionamento dos E.U.A.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1B4eZx6slC5-vbUExmPiJv47KYucMAkxm'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Variadas foram as repercussões internacionais à deposição do Presidente João Goulart, em abril de 1964, como expressam os depoimentos citados.</p><p>Considerando a natureza do movimento que depôs o presidente brasileiro em 1964, identifique a principal diferença entre o posicionamento do secretário de Estado norte-americano e o do deputado mexicano. Em seguida, apresente um aspecto do contexto internacional da época que explique o posicionamento dos E.U.A.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Principal diferença: o secretário de Estado norte-americano apoia a deposição do presidente João Goulart e a
@@ -58,7 +63,7 @@ do presidente brasileiro e a entende como um golpe do grande capital internacion
 </li><li> interesses de investidores e capitais norte-americanos nos países latino-americanos
 </li><li> política de não alinhamento defendida pelo governo de João Goulart, no contexto da defesa da
 soberania dos países do Terceiro Mundo</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>O movimento que depôs o presidente João Goulart em 1964 representou um divisor de águas na história política da sociedade brasileira contemporânea. Tal aspecto foi intensamente debatido e analisado por ocasião dos cinquenta anos desse episódio, ocorrido no ano de 2014. Entre outros aspectos, destacou-se ainda mais a dimensão autoritária e cerceadora das liberdades democráticas do regime de governo vigente entre 1964 e 1985, amplificando ainda mais os resultados dos trabalhos da Comissão da Verdade. Nesse contexto, as interpretações sobre os significados e a natureza do movimento de deposição do Presidente João Goulart confluíram para a perspectiva de golpe de estado. No calor da hora dos acontecimentos, em abril de 1964, entretanto, a polêmica não era pequena e as opiniões dos variados atores sociais divergiram. As divergências apontavam para o ambiente de intensos conflitos entre projetos e interesses opostos quanto aos rumos das decisões da política interna e da política externa do Estado brasileiro. No que se refere aos posicionamentos ilustrados pelo secretário norte-americano e pelo deputado mexicano, percebe-se que o primeiro apoiou a deposição do presidente João Goulart e a entendeu como movimento de defesa da constituição e da democracia; no caso do representante do México, houve a condenação da deposição do presidente brasileiro e a compreensão de que a mesma fora como um golpe do grande capital internacional nos países do Terceiro Mundo. A perspectiva de entendimento e de apoio do representante norte-americano esteve associada à bipolaridade das relações internacionais na Guerra Fria, no início da década de 1960, momento no qual se ampliaram as rivalidades entre os E.U.A. e Cuba, então convertida ao socialismo, o que repercutiu diretamente nos interesses de investidores e capitais norte-americanos nos países latino-americanos. A diplomacia estadunidense, nessa situação, opôs-se à política externa de não alinhamento, defendida pelo governo de João Goulart, no contexto da defesa da soberania dos países do Terceiro Mundo.</p></div>

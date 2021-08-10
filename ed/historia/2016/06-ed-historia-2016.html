@@ -5,9 +5,8 @@
   <title>Questão 06 - História - ED 2016</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 06 - História - ED 2016</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1wNvFcEb9di8v5uFRWPVQIZOdDiWdP0lM'></amp-img></div></section></amp-accordion><div class='enunciado'><p>A abolição da escravatura no Brasil resultou de manifestações políticas e sociais que mobilizaram diferentes grupos, como ilustra a fotografia.</p><p>Cite dois grupos sociais diretamente envolvidos no movimento abolicionista. Identifique um grupo opositor a esse movimento e uma das razões para seu posicionamento contrário.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1wNvFcEb9di8v5uFRWPVQIZOdDiWdP0lM'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>A abolição da escravatura no Brasil resultou de manifestações políticas e sociais que mobilizaram diferentes grupos, como ilustra a fotografia.</p><p>Cite dois grupos sociais diretamente envolvidos no movimento abolicionista. Identifique um grupo opositor a esse movimento e uma das razões para seu posicionamento contrário.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Dois dos grupos abolicionistas:</p><ol><li> irmandades religiosas
@@ -61,7 +66,7 @@ Machado de Assis, Luis Gama</li></ol><p>Um dos grupos contrários à abolição:
 </li><li> cafeicultores do Vale do Paraíba Fluminense</li></ol><p>Uma das razões:</p><ol><li> resistência à abolição sem indenização
 </li><li> capitais mobilizados na mão de obra escrava
 </li><li> manutenção do status social da condição de proprietário de escravos</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>A foto da missa campal em ação de graças pela abolição da escravidão, em maio de 1888, é um dos poucos registros fotográficos que simboliza o quanto tal questão veio a mobilizar a sociedade brasileira nas décadas finais do século XIX. O debate sobre o fim da escravidão se desenrolou ao longo do século XIX, inserindo-se nos conflitos políticos e sociais que condicionaram as ações do Estado Imperial. No decorrer da primeira metade do século XIX, esteve associado às propostas sobre a extinção do tráfico intercontinental de escravos africanos. Com a ilegalidade desse tráfico decretada em 1850, o fim da escravidão ocupou cada vez mais a pauta das reformas políticas a serem enfrentadas pelo governo monárquico, o que se acentuou por ocasião das demandas e problemas ocasionados pela Guerra da Tríplice Aliança (1864-1870), ou Guerra do Paraguai. Especialmente na década de 1880, organizou-se o movimento abolicionista, envolvendo segmentos sociais diversos, tais como: letrados (Joaquim Nabuco, Luis Gama, André Rebouças, José do Patrocínio, Machado de Assis, entre outros); lideranças políticas, magistrados, militares e proprietários rurais, parte deles adeptos do republicanismo, outros defensores da imigração subvencionada pelo poder estatal; irmandades religiosas; libertos e escravos partidários de ações rebeldes para a conquista da liberdade. Mas houve também significativa oposição ao fim da escravidão, sobretudo por parte de proprietários rurais que, mesmo com a ilegalidade do tráfico intercontinental decretada em 1850, valeram-se de estratégias variadas para manter e ampliar seus plantéis de escravos. O caso mais notório desse posicionamento foi dos cafeicultores da região do Vale do Paraíba fluminense, críticos do abolicionismo e das propostas de fim da escravidão sem a indenização de antigos proprietários, proposta vitoriosa com a assinatura da Lei Áurea.</p></div>

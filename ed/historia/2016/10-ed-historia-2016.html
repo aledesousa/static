@@ -5,9 +5,8 @@
   <title>Questão 10 - História - ED 2016</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 10 - História - ED 2016</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=193mHZ8OeJUuIPTXWABXUQ9d_ae1L1Xtn'></amp-img></div></section></amp-accordion><div class='enunciado'><p>As abordagens das animações cinematográficas indicam mudanças na representação dos gêneros masculino e feminino e do papel da mulher nas sociedades ocidentais, tendo em vista transformações históricas e também a ocorrência de medidas de promoção da igualdade entre os gêneros nas últimas oito décadas.</p><p>Ao comparar as análises feitas nos textos, aponte uma mudança na representação da condição feminina mostrada no filme Frozen.</p><p>Identifique, ainda, um direito ou uma lei conquistados pelas mulheres no Brasil a partir da década de 1930.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=193mHZ8OeJUuIPTXWABXUQ9d_ae1L1Xtn'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>As abordagens das animações cinematográficas indicam mudanças na representação dos gêneros masculino e feminino e do papel da mulher nas sociedades ocidentais, tendo em vista transformações históricas e também a ocorrência de medidas de promoção da igualdade entre os gêneros nas últimas oito décadas.</p><p>Ao comparar as análises feitas nos textos, aponte uma mudança na representação da condição feminina mostrada no filme Frozen.</p><p>Identifique, ainda, um direito ou uma lei conquistados pelas mulheres no Brasil a partir da década de 1930.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Uma das mudanças:</p><ol><li> autonomia feminina
@@ -65,7 +70,7 @@
 </li><li> previsão constitucional de igualdade salarial
 </li><li> recebimento de pensão alimentícia pela guarda de filhos
 </li><li> concessão do Bolsa-família preferencialmente para mulheres</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>Recentemente, no Brasil e nas demais sociedades ocidentais, a temática da luta contra o preconceito e pela igualdade de gêneros tem se imposto no centro do debate político. Apesar de ataques violentos tentarem desqualificar as reivindicações legítimas das mulheres brasileiras, contribuindo para agravar problemas como a violência doméstica, a diferença salarial e o preconceito, diversas conquistas e avanços sociais, como mudanças na representação da condição feminina, podem ser percebidos nas mais variadas fontes, dentre as quais um dos mais importantes produtos da indústria cultural: o cinema. Feitos por grandes estúdios transnacionais ao longo do século XX e XXI e voltados para o consumo do público infanto-juvenil, o subgênero da indústria cultural com os chamados “filmes de princesas” permite constatar profundas mudanças nas representações dos papeis masculino e feminino, no ideal de feminilidade e nas expectativas diante da mulher em diferentes épocas. Tais mudanças estão diretamente relacionadas a transformações políticas, econômicas, culturais e sociais, como a conquista do direito de voto e a ampliação da participação política, o questionamento ao machismo, o acesso ao mercado de trabalho, o avanço do movimento feminista e a revolução sexual a partir da década de 1960. Com isso, a partir dos cartazes de dois desses filmes – Branca de Neve e os Sete Anões, de 1937, e Frozen, uma aventura congelante, de 2012, e após a leitura de dois textos analíticos, podem-se reconhecer mudanças na representação do papel social da mulher da década de 1930 para o começo do século XXI, como: autonomia feminina, capacidade de iniciativa e de condução do próprio destino, valorização do amor fraternal e crítica ao amor idealizado (“felizes para sempre”, “amor à primeira vista”), relativização do maniqueísmo e preocupação com a carreira e o trabalho, e não apenas com a família e os afazeres domésticos. Superando o ideal feminino retratado em Branca de Neve, essas mudanças indicam conquistas, materializadas em direitos e leis obtidas pelas mulheres no Brasil a partir da década de 1930: direito de voto, lei do divórcio, lei Maria da Penha, licença maternidade, previsão constitucional de igualdade salarial, recebimento de pensão alimentícia pela guarda de filhos e concessão preferencial da titularidade de programas sociais, como o Bolsa Família, para mulheres.</p></div>

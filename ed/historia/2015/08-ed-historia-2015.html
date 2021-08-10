@@ -5,9 +5,8 @@
   <title>Questão 08 - História - ED 2015</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 08 - História - ED 2015</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1ei7las-_KahdPWPeI1LmSronQDkAdUE9'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Os movimentos de contestação política ocorridos na década de 1960 tiveram motivações variadas. No Brasil, a Passeata dos Cem Mil foi o episódio mais marcante nesse contexto.</p><p>Aponte dois elementos do contexto político brasileiro da época associados diretamente à ocorrência dessa passeata. Em seguida, apresente um motivo que, em 1968, contribuiu para a eclosão de revoltas em um dos outros países citados no texto.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1ei7las-_KahdPWPeI1LmSronQDkAdUE9'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Os movimentos de contestação política ocorridos na década de 1960 tiveram motivações variadas. No Brasil, a Passeata dos Cem Mil foi o episódio mais marcante nesse contexto.</p><p>Aponte dois elementos do contexto político brasileiro da época associados diretamente à ocorrência dessa passeata. Em seguida, apresente um motivo que, em 1968, contribuiu para a eclosão de revoltas em um dos outros países citados no texto.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Dois dos elementos:</p><ol><li> restruturação do movimento estudantil
@@ -61,7 +66,7 @@
 </li><li> apropriação das ideias da Revolução Cultural Chinesa
 </li><li> desdobramentos das lutas de descolonização na Ásia e na África
 </li><li> insatisfação estudantil quanto à burocracia do sistema universitário</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>No início da década de 1960, cresceram as mobilizações políticas de diversos segmentos da sociedade brasileira, como estudantes, sindicalistas, intelectuais e artistas, relacionadas à proposição de variadas reformas – agrária, tributária, educacional, universitária, entre outras. A ocorrência do Golpe Civil-militar em 1964 alterou esse contexto em função da repressão e das perseguições políticas então instauradas. O movimento estudantil, tanto de universitários quanto de secundaristas, manteve e ampliou seus protestos contra o cerceamento das liberdades e contra as medidas de natureza autoritária. A morte do estudante Edson Luís, em 1968, em mais um dos confrontos entre estudantes e as forças da repressão, ampliou a onda de protestos, sendo o principal deles a Passeata dos Cem Mil, como ilustram a foto e o texto. De fato, a década de 1960 foi marcada, internacionalmente, por um conjunto expressivo de manifestações políticas e culturais protagonizadas por jovens estudantes, em diversos países. Variados foram os motivos para essas manifestações, destacando-se: as críticas à Guerra do Vietnã; a expansão dos movimentos de contracultura e a revolução sexual; as repercussões da Revolução Cultural Chinesa, da Primavera de Praga e das lutas de descolonização na Ásia e na África; o crescimento da insatisfação contra a burocracia e as hierarquias do sistema universitário. Esse contexto internacional estimulou jovens estudantes brasileiros nas reações ao autoritarismo dos governos militares.</p></div>
