@@ -5,9 +5,8 @@
   <title>Questão 01 - História - ED 1998</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,13 +36,15 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
+</head><body><h1 class='questao'>Questão 01 - História - ED 1998</h1>
  <div class='enunciado'><p>Criada no período da Reforma Católica do século XVI, a Companhia de Jesus teve papel preponderante na expansão da religião católica, tanto no campo europeu, quanto nas missões do norte da África, da Ásia e da América. No Brasil, a chegada dos jesuítas (1549) inaugurou um novo período de conquista espiritual, em virtude, entre outros aspectos, da atuação de seus padres junto aos indígenas e aos colonos.</p><p>A) Caracterize a atuação dos jesuítas em relação aos colonos no Brasil.</p><p>B) Cite duas outras ações da Igreja Católica em seus esforços para conter a Reforma Protestante do
-século XVI.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+século XVI.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Os jesuítas exerceram um papel de grande importância em relação à educação
