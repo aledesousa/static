@@ -5,9 +5,8 @@
   <title>Questão 05 - História - ED 2013</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 05 - História - ED 2013</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1P85K4K1FbmXbzUIFTuLoPYGwOzQGrJsh'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Ainda permanece a imagem de Pedro I como um dos responsáveis pela autonomia política do Brasil. Contudo, nove anos após proclamar o 7 de setembro de 1822, o imperador abdicava de seu trono e retornava à Europa. A instabilidade política e econômica foi a marca de seu breve reinado.</p><p>Cite um setor da sociedade brasileira da época que se opunha à manutenção do governo de Pedro I e uma razão para essa oposição.</p><p>Em seguida, aponte um motivo para a instabilidade econômica que caracterizou esse governo.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1P85K4K1FbmXbzUIFTuLoPYGwOzQGrJsh'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Ainda permanece a imagem de Pedro I como um dos responsáveis pela autonomia política do Brasil. Contudo, nove anos após proclamar o 7 de setembro de 1822, o imperador abdicava de seu trono e retornava à Europa. A instabilidade política e econômica foi a marca de seu breve reinado.</p><p>Cite um setor da sociedade brasileira da época que se opunha à manutenção do governo de Pedro I e uma razão para essa oposição.</p><p>Em seguida, aponte um motivo para a instabilidade econômica que caracterizou esse governo.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Um dos setores e uma das respectivas razões:</p><ol><li> traficantes de escravos / discordância em relação ao acordo assinado com a Inglaterra pelo fim do
@@ -63,13 +68,13 @@ Imperador na sucessão portuguesa</li></ol><p>Um dos motivos:</p><ol><li> crise 
 </li><li> gastos com a estruturação do Estado Imperial
 </li><li> dívidas geradas pelas Guerras de Independência e da Cisplatina
 </li><li> acordos comerciais desfavoráveis assinados, principalmente, com Portugal e Inglaterra</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
-      <div class='respostas'><p>O governo de Pedro I no Brasil (1822-1831) foi marcado pela instabilidade. As Guerras de Independência e da Cisplatina, o endividamento relacionado aos custos da organização burocrática e militar do Estado, as dificuldades no processo de reconhecimento internacional, que levaram à assinatura de tratados comerciais desfavoráveis ao país, o caráter político centralizador do governo imperial, que resultou em uma Constituição criticada pela maioria da elite provincial e, finalmente, a crise da economia açucareira explicam essa instabilidade. Esse quadro levou a uma crescente oposição a Pedro I, provocando a sua abdicação em 1831. Essa oposição foi conduzida pelos seguintes setores sociais:</p><ul><li>  comerciantes nativos, insatisfeitos com as vantagens e privilégios dispensados pelo imperador aos comerciantes portugueses e ingleses;
-</li><li>  traficantes de escravos, que discordavam da assinatura de um acordo com a Inglaterra que previa o fim do tráfico negreiro no Brasil para o ano de 1831;
-</li><li>  grandes proprietários de escravos e terras, insatisfeitos com os altos impostos cobrados pelo poder central e com a centralização política imposta pelo imperador, além de também discordarem do tratado que punha fim ao tráfico negreiro no Brasil;
-</li><li>  grupos médios urbanos liberais, que defendiam o liberalismo e reivindicavam reformas na Constituição de 1824, além de culpabilizarem o imperador e seus aliados pelo endividamento do Estado e pelos rumos tomados na Guerra da Cisplatina e de o criticarem pelo seu envolvimento na questão da sucessão portuguesa.</li></ul></div>
+      <div class='respostas'><p>O governo de Pedro I no Brasil (1822-1831) foi marcado pela instabilidade. As Guerras de Independência e da Cisplatina, o endividamento relacionado aos custos da organização burocrática e militar do Estado, as dificuldades no processo de reconhecimento internacional, que levaram à assinatura de tratados comerciais desfavoráveis ao país, o caráter político centralizador do governo imperial, que resultou em uma Constituição criticada pela maioria da elite provincial e, finalmente, a crise da economia açucareira explicam essa instabilidade. Esse quadro levou a uma crescente oposição a Pedro I, provocando a sua abdicação em 1831. Essa oposição foi conduzida pelos seguintes setores sociais:</p><p>• comerciantes nativos, insatisfeitos com as vantagens e privilégios dispensados pelo imperador aos comerciantes portugueses e ingleses;
+• traficantes de escravos, que discordavam da assinatura de um acordo com a Inglaterra que previa o fim do tráfico negreiro no Brasil para o ano de 1831;
+• grandes proprietários de escravos e terras, insatisfeitos com os altos impostos cobrados pelo poder central e com a centralização política imposta pelo imperador, além de também discordarem do tratado que punha fim ao tráfico negreiro no Brasil;
+• grupos médios urbanos liberais, que defendiam o liberalismo e reivindicavam reformas na Constituição de 1824, além de culpabilizarem o imperador e seus aliados pelo endividamento do Estado e pelos rumos tomados na Guerra da Cisplatina e de o criticarem pelo seu envolvimento na questão da sucessão portuguesa.</p></div>
     </section></amp-accordion>
   </body>
 </html>
