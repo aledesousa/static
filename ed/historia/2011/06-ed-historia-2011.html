@@ -5,9 +5,8 @@
   <title>Questão 06 - História - ED 2011</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 06 - História - ED 2011</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1DK_06xnnb2IBDwTeqfqA0FU9DxZhDdXh'></amp-img></div></section></amp-accordion><div class='enunciado'><p>O depoimento acima faz referência a efeitos da Crise de 1929 para a sociedade norte-americana.</p><p>Apresente dois fatores que contribuíram para deflagrar essa crise e cite seu principal desdobramento para a economia europeia naquele momento.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1DK_06xnnb2IBDwTeqfqA0FU9DxZhDdXh'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>O depoimento acima faz referência a efeitos da Crise de 1929 para a sociedade norte-americana.</p><p>Apresente dois fatores que contribuíram para deflagrar essa crise e cite seu principal desdobramento para a economia europeia naquele momento.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Dois dos fatores:</p><ol><li> especulação financeira
@@ -59,7 +64,7 @@
 </li><li> reaquecimento das economias europeias</li></ol><p>A crise econômica e financeira, iniciada com a falência de empreendimentos agrícolas e
 industriais dependentes de capitais norte-americanos, repatriados em função da quebra da Bolsa
 de Nova York.</p></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>Entre os efeitos da Primeira Grande Guerra (1914-1918), assistiu-se à expansão da economia norte-americana, traduzida não só no crescimento de sua produção agrícola e industrial, como também na presença de investimentos e empréstimos em outros países, como os europeus, carentes de recursos para as obras de reconstrução. Em finais da década de 1920, os sinais de superaquecimento da economia norte-americana já se apresentavam no descompasso, cada vez maior, entre capacidade de produção e sua respectiva absorção pelo mercado, fato agravado pela recomposição do crescimento de economias europeias. Nesse quadro de colapso iminente, os principais fatores que deflagraram a Crise de 1929 foram a especulação financeira, que culminou com a quebra da Bolsa de Nova York, e a superprodução agrícola e industrial, concomitantemente à desaceleração do consumo.</p><p>A centralidade da Bolsa de Nova York no mercado financeiro internacional contribuiu para que os problemas da economia dos EUA afetassem outros países que, por diversos motivos, dependiam dos seus capitais e investimentos. Houve, por exemplo, no caso dos países europeus, a falência de empresas prejudicadas pelo repatriamento de capitais norte-americanos. A queda do dólar abalou outras moedas, causando desvalorização monetária e inflação, problemas agravados pelas falências e pelo desemprego. Nascida das contradições do desenvolvimento dos EUA, a Crise de 1929 tornou-se mundial e um divisor de águas na história do capitalismo no século XX.</p></div>
