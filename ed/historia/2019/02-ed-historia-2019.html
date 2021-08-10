@@ -5,9 +5,8 @@
   <title>Questão 02 - História - ED 2019</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 02 - História - ED 2019</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1xbYlkgHQBTi6JsUrSG8ApRY2zBUOOUCz'></amp-img></div></section></amp-accordion><div class='enunciado'><p>As proposições acima foram escritas por Zera Yacob (1599-1692), pensador etíope que desenvolveu suas ideias antes de europeus associados ao Iluminismo.</p><p>Identifique dois ideais das proposições do pensador africano presentes, também, no pensamento iluminista.</p><p>Em seguida, ainda com base nas citações, apresente um aspecto que diferencia Yacob da maior parte dos pensadores iluministas europeus.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1xbYlkgHQBTi6JsUrSG8ApRY2zBUOOUCz'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>As proposições acima foram escritas por Zera Yacob (1599-1692), pensador etíope que desenvolveu suas ideias antes de europeus associados ao Iluminismo.</p><p>Identifique dois ideais das proposições do pensador africano presentes, também, no pensamento iluminista.</p><p>Em seguida, ainda com base nas citações, apresente um aspecto que diferencia Yacob da maior parte dos pensadores iluministas europeus.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Dois dos ideais:</p><ol><li> primazia da razão
@@ -56,7 +61,7 @@
 </li><li> condenação da escravidão
 </li><li> reprovação da discriminação
 </li><li> defesa do princípio da igualdade</li></ol><p>Aspecto: igualdade entre homens e mulheres no casamento.</p></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>Nos manuais didáticos da Educação Básica, o Iluminismo ou Ilustração é um movimento normalmente atribuído a pensadores europeus no século XVIII e associado à defesa das liberdades individuais – de expressão, política, e religiosa – vinculado ainda a noções como a tolerância e a igualdade. Com base em documento de época, fragmentos de livro escrito por Zera Yacob (1599-1692), pensador etíope do século XVII, é possível reconhecer ideais do pensamento iluminista, anteriores a sua defesa por pensadores europeus no século seguinte, tais como a primazia da razão; a defesa do secularismo; a igualdade entre os homens, a crítica à escravidão e a condenação à discriminação.</p><p>Além disso, os escritos de Yacob se diferenciam em aspectos relevantes de europeus como John Locke (1632-1704) e Immanuel Kant (1724-1804), considerados pela historiografia como expoentes do Iluminismo. Em relação ao primeiro, Yacob apresenta uma crítica consistente à escravidão quando afirma que “não podemos sair e comprar um homem como se fosse um animal”, ao sustentar a igualdade entre homens, a dotação da mesma inteligência e a crítica à discriminação. O pensador etíope defende ainda uma visão de igualdade entre homens e mulheres quando afirma que “marido e mulher estão em pé de igualdade no casamento”. Diferencia-se assim de autores como Kant, que em inúmeras passagens de seus conhecidos trabalhos trata as mulheres de forma inferior.</p><p>A divulgação de ideias defendidas por autores africanos, em momento anterior a seu aparecimento na Europa, ajuda a questionar a perspectiva eurocêntrica associada ao Iluminismo. Ao mesmo tempo, demonstra os limites do movimento na Europa, ao não condenar a escravidão ou reiterar preconceitos e formas de discriminação diante das mulheres.</p></div>

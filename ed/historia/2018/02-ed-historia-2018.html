@@ -5,9 +5,8 @@
   <title>Questão 02 - História - ED 2018</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 02 - História - ED 2018</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=10copJN-kXKSBtt5v2ffSSEpD0n2BuwV2'></amp-img></div></section></amp-accordion><div class='enunciado'><p>As fotografias das ruínas permitem visualizar parcialmente algumas das ações colonizadoras ibéricas na América nos séculos XVII e XVIII.</p><p>Identifique um fator que explique de que modo essas ações colonizadoras contribuíram para a “ocupação sistematizada do território” na América. Identifique, também, uma consequência dessas ações para as populações indígenas locais.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=10copJN-kXKSBtt5v2ffSSEpD0n2BuwV2'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>As fotografias das ruínas permitem visualizar parcialmente algumas das ações colonizadoras ibéricas na América nos séculos XVII e XVIII.</p><p>Identifique um fator que explique de que modo essas ações colonizadoras contribuíram para a “ocupação sistematizada do território” na América. Identifique, também, uma consequência dessas ações para as populações indígenas locais.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Um dos fatores:</p><ol><li> conversão de indígenas ao catolicismo
@@ -59,7 +64,7 @@
 </li><li> realização de alianças com os colonizadores europeus
 </li><li> incorporação de hábitos culturais por meio da cristianização
 </li><li> decréscimo demográfico em função de epidemias e guerras</li></ol></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>A conquista e a colonização das terras americanas por parte das Coroas de Portugal e Espanha ocorreram entre os séculos XVI e XVIII, mobilizando variados agentes sociais, promotores dos processos de ocupação e de exploração dos territórios incorporados aos domínios ultramarinos ibéricos. Entre esses agentes sociais, destaca-se a Igreja Cristã Católica, diretamente envolvida na dinâmica de expansão da fé e do império, em especial por meio de ordens religiosas missionárias, destaque para a Companhia de Jesus.</p><p>As fotografias apresentam as ruínas de duas missões jesuítico-guarani (San Ignacio Mini e São Miguel Arcanjo) construídas em região estratégica para os interesses colonizadores ibéricos: a bacia platina, envolvendo os rios Paraná, Paraguai e Uruguai e seus afluentes. Atualmente zona de fronteira entre Brasil, Argentina, Paraguai e Uruguai, a região platina foi predominantemente habitada por tribos da etnia guarani, o que veio a ser um elemento facilitador de contatos com os agentes colonizadores. A região tornou-se igualmente alvo de disputas frente às possibilidades de interiorização e de estabelecimento de comércio e de contrabando com áreas mineradoras do altiplano andino.</p><p>A ação missionária da Companhia de Jesus buscou assegurar a presença dos colonizadores por meio de reduções, verdadeiras cidadelas, como indicam as ruínas remanescentes, onde habitavam e trabalhavam indígenas convertidos ao catolicismo. Consideradas patrimônio cultural mundial pela UNESCO, em 1983, as missões jesuítico-guarani funcionaram como marcos de conquista e de defesa do território e de expansão da fé cristã. Para as tribos de origem guarani, além da conversão religiosa e dos processos de aculturação, a ação missionária acarretou a formalização de alianças com os colonizadores e o envolvimento direto das populações indígenas em confrontos pelo controle territorial, além dos deslocamentos populacionais e do decréscimo demográfico, associados às guerras e às ondas epidêmicas.</p></div>

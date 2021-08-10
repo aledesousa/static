@@ -5,9 +5,8 @@
   <title>Questão 04 - História - ED 2019</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,19 +36,28 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 04 - História - ED 2019</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1aDhyzOkNkNQUSUX8TV8aGu9VKtT69sPS'></amp-img></div></section></amp-accordion><div class='enunciado'><p>Na época das reportagens, os dois objetos destacados faziam parte do patrimônio histórico e cultural originário do antigo reino de Daomé, atual Benin, em exibição fora do continente africano. Com o incêndio do Museu Nacional, em setembro de 2018, o trono de Adandozan foi destruído.</p><p>De acordo com os textos, estabeleça a diferença entre os processos de aquisição dos objetos pelos dois museus.</p><p>Aponte, ainda, o principal vínculo econômico entre Daomé e Brasil, no começo do século XIX, que explica a iniciativa dos embaixadores do reino africano em 1811.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='2'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='2' height='1' src='https://drive.google.com/uc?id=1aDhyzOkNkNQUSUX8TV8aGu9VKtT69sPS'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>Na época das reportagens, os dois objetos destacados faziam parte do patrimônio histórico e cultural originário do antigo reino de Daomé, atual Benin, em exibição fora do continente africano. Com o incêndio do Museu Nacional, em setembro de 2018, o trono de Adandozan foi destruído.</p><p>De acordo com os textos, estabeleça a diferença entre os processos de aquisição dos objetos pelos dois museus.</p><p>Aponte, ainda, o principal vínculo econômico entre Daomé e Brasil, no começo do século XIX, que explica a iniciativa dos embaixadores do reino africano em 1811.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Diferença: enquanto o trono de Adandozan foi uma doação do reino de Daomé a D. João VI, o trono de Ghezo é fruto de saque imperialista promovido pela França.</p><p>Vínculo econômico: tráfico negreiro intercontinental.</p></div>
-    </section></amp-accordion><amp-accordion class='acc-comentario' animate animate disable-session-states>
+    </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
       <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'><p>O incêndio do Museu Nacional, no Rio de Janeiro, ocorrido em setembro de 2018, destruiu bens de valores inestimáveis, integrantes do patrimônio histórico e artístico mundial. Dentre os objetos, chamava atenção o trono do rei Adandozan (1797-1818), do antigo reino africano de Daomé, atual Benim. A peça de madeira, ricamente trabalhada, tinha um metro de altura e 70 cm de largura máxima, confeccionada, ao que tudo indica, na passagem do século XVIII ao XIX.</p><p>O trono foi um presente ofertado por embaixadores do Reino de Daomé ao Príncipe Regente D. João, quando se encontrava no comando do Império Português, no Rio de Janeiro, em 1811. Não se sabe ao certo as razões para a escolha específica desse presente. De todo modo, a oferta indica um esforço de estreitamento de relações diplomáticas entre o reino africano e a corte portuguesa no Rio de Janeiro. A partir de 1818, o trono passou a integrar o acervo do Museu Nacional. À época, o principal vínculo econômico entre Brasil, Portugal e Daomé era o tráfico atlântico de escravos, existindo interesse de todas as partes na sua manutenção.</p><p>Sua aquisição pelo museu brasileiro, resultado de negociações diplomáticas entre dois Estados soberanos, diferencia da maneira pela qual outro trono remanescente do Reino de Daomé ingressou no Museu Quai de Branly, em Paris, na França. Muito parecido com o trono de Adandozan, o trono do rei Ghezo chegou até o museu europeu como fruto de pilhagem durante a expansão imperialista. Por essa razão, esse e outros objetos encontram-se no centro de grande polêmica atualmente: os Estados africanos remanescentes das culturas que produziram tais bens, têm exigido a devolução dos itens saqueados pelas outrora potências imperialistas ocidentais de outrora. A diferença pela qual o trono do Reino de Daomé ingressou no Museu Nacional o tornava ainda mais especial quando comparado aos demais tronos semelhantes, em exposição em outros museus do planeta e atestava o vínculo econômico entre Daomé e Brasil: o tráfico negreiro intercontinental.</p></div>
