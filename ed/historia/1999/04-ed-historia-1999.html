@@ -5,9 +5,8 @@
   <title>Questão 04 - História - ED 1999</title>
   <script async src='https://cdn.ampproject.org/v0.js'></script>
   <script async custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-  
+  <script custom-element='amp-lightbox-gallery' src='https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js' async></script>
   <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-  <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
   <link rel='canonical' href='/'>
   <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
   <style amp-boilerplate> body { -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both } @-webkit-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-moz-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-ms-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @-o-keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } @keyframes -amp-start { from { visibility: hidden } to { visibility: visible } } </style><noscript> <style amp-boilerplate> body { -webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none } </style> </noscript>
@@ -19,12 +18,9 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-    .suporte {margin-top: 5px;
-      position: relative;
-      width: 100%;
-      height: 250px;
-    }
-    .suporte img {object-fit: contain;}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
+     amp-img img {object-fit: contain;}
+    .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
                     padding: 10px;
                     font-size: 0.85em;
@@ -40,15 +36,24 @@
       text-align: right} 
     amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
     amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
     amp-accordion.acc-suporte h4::before {content: '🗺️ '}
     amp-accordion.acc-resposta h4::before {content: '👁️ '}
     amp-accordion.acc-comentario h4::before {content: '💬 '}
+    blockquote {font-style: italic}
   </style>
-</head><body>
- <amp-accordion class='acc-suporte' animate animate disable-session-states>
+</head><body><h1 class='questao'>Questão 04 - História - ED 1999</h1>
+ <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
       <h4>Suporte do enunciado<span class='seta'></span></h4>
-<div class='suporte'><amp-image-lightbox id='lightbox' layout='nodisplay'></amp-image-lightbox><amp-img on='tap:lightbox' role='button' tabindex='0' layout='fill' height='3' width='4' src='https://drive.google.com/uc?id=1PLj98xR_e1uhAndKRV378ZFfLSdwLxic'></amp-img></div></section></amp-accordion><div class='enunciado'><p>A modernização do Rio de Janeiro, em fins do século XIX e início deste, ocorreu sobretudo por ser a
+  <amp-carousel
+    type='slides'
+    layout='responsive'
+    width='1'
+    height='1'
+    lightbox>
+    <div><amp-img layout='responsive' width='1' height='1' src='https://drive.google.com/uc?id=1PLj98xR_e1uhAndKRV378ZFfLSdwLxic'></amp-img></div></amp-carousel>
+  </section></amp-accordion><div class='enunciado'><p>A modernização do Rio de Janeiro, em fins do século XIX e início deste, ocorreu sobretudo por ser a
 cidade o principal centro político e econômico do país. A partir daí, o progresso esteve sempre
 relacionado às possibilidades de desenvolvimento nas áreas cultural e de entretenimento. Contudo,
 nem sempre a busca do progresso e da civilização trouxe benefícios para a população mais pobre do
@@ -57,7 +62,7 @@ serviços públicos vêm dificultando a manutenção da denominação de "cidade
 urbanística desenvolvida pelo prefeito Pereira Passos (1903-1906).</p><p>B. Recentemente, o Rio de Janeiro não conseguiu o aval do Comitê Olímpico Internacional para
 sediar as Olimpíadas de 2004, apesar da mobilização de diversos segmentos da mídia, sociedade
 e governo.</p><p>Identifique duas razões relativas aos serviços públicos da cidade que possam ter prejudicado
-a candidatura do Rio.</p></div><amp-accordion class='acc-resposta' animate animate disable-session-states>
+a candidatura do Rio.</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
       <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Uma dentre as conseqüências abaixo:</p><ol><li> A população de baixa renda que morava nos cortiços e casas de cômodo no centro da
