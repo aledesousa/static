@@ -18,7 +18,7 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
      amp-img img {object-fit: contain;}
     .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
@@ -29,30 +29,30 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
-    amp-accordion section h2 span {width:auto; 
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
-    amp-accordion section[expanded] h2 span::after {content: '▲ '}
-    amp-accordion.acc-texto h2::before {content: '📄 '}
-    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h2::before {content: '👁️ '}
-    amp-accordion.acc-comentario h2::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
 </head><body><h1 class='questao'>Questão 52 - 2º EQ 2011</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h2>Suporte do enunciado<span class='seta'></span></h2>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
   <amp-carousel
     type='slides'
     layout='responsive'
-    width='4'
-    height='3'
+    width='2'
+    height='1'
     lightbox>
-    <div><amp-img layout='responsive' height='3' width='4' width='673' height='299' alt='' border='0' src='imagens/2011_2ex_52.png?resize=673%2C299' data-recalc-dims='1'></img-amp></div></amp-carousel>
+    <div><amp-img layout='fill' height='1' width='1' width='673' height='299' alt='' border='0' src='imagens/2011_2ex_52.png?resize=673%2C299' data-recalc-dims='1'></img-amp></div></amp-carousel>
   </section></amp-accordion><div class='enunciado'><p>A taxa de mortalidade infantil é um dos indicadores demográficos que permite avaliar as condições de vida das populações.<br>Um dos principais fatores que explicam os diferentes níveis das taxas de mortalidade infantil observados no gráfico está relacionado à:</p>
 <p>(A) primazia da atividade agrícola
 </p>
@@ -60,11 +60,11 @@
 <p>(C) permanência da concentração de renda</p>
 <p>(D) recorrência de problemas geoclimáticos</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h2>Resposta<span class='seta'></span></h2>
+      <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Alternativa correta: (C)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h2>Explicação<span class='seta'></span></h2>
+      <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'>
 <p>Por meio da análise do gráfico, pode-se observar o decréscimo das taxas de mortalidade infantil, entre as décadas de 1920 e 1990,no Brasile nas regiões Sudeste e Nordeste. Pode-se igualmente perceber a existência de taxas de mortalidade infantil mais elevadas, no mesmo período, para o Nordeste. Entre os fatores responsáveis por essa diferenciação, destaca-se a maior precariedadedas condições de vida de populações nordestinas,em função dos elevadosníveis de pobrezaeda significativa concentração de renda.</p></div>
     </section></amp-accordion>
