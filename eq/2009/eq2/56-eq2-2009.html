@@ -18,7 +18,7 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
      amp-img img {object-fit: contain;}
     .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
@@ -29,30 +29,30 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
-    amp-accordion section h2 span {width:auto; 
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
-    amp-accordion section[expanded] h2 span::after {content: '▲ '}
-    amp-accordion.acc-texto h2::before {content: '📄 '}
-    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h2::before {content: '👁️ '}
-    amp-accordion.acc-comentario h2::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
 </head><body><h1 class='questao'>Questão 56 - 2º EQ 2009</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h2>Suporte do enunciado<span class='seta'></span></h2>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
   <amp-carousel
     type='slides'
     layout='responsive'
-    width='4'
-    height='3'
+    width='2'
+    height='1'
     lightbox>
-    <div><amp-img layout='responsive' height='3' width='4' height='411' alt='' width='715' border='0' src='imagens/q_56_2ex_2009.jpg?resize=715%2C411' data-recalc-dims='1'></img-amp></div></amp-carousel>
+    <div><amp-img layout='fill' height='1' width='1' height='411' alt='' width='715' border='0' src='imagens/q_56_2ex_2009.jpg?resize=715%2C411' data-recalc-dims='1'></img-amp></div></amp-carousel>
   </section></amp-accordion><div class='enunciado'><p>Os mapas indicam a distribuição espacial dos brasileiros que se declaram católicos ou luteranos.</p>
 <p>As áreas com maiores índices de concentração de católicos e luteranos, respectivamente, estão associadas ao predomínio, dentre outras, das seguintes características do país:</p>
 <p>(A) economia industrial – economia de plantation
@@ -61,11 +61,11 @@
 <p>(C) população de origem mediterrânea – população de origem alemã</p>
 <p>(D) percentual de urbanização elevado – percentual de ruralização baixo</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h2>Resposta<span class='seta'></span></h2>
+      <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Alternativa correta: (C)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h2>Explicação<span class='seta'></span></h2>
+      <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'>
 <p>A análise do mapa permite identificar tradições históricas e culturais que determinaram a distribuição de católicos e luteranos pelo Brasil. O predomínio de luteranos no Sul está asssociado à intensa imigração de alemães para essa região; já o predomínio de católicos na costa brasileira se justifica pela fixação nessa área de europeus de origem mediterrânea.</p></div>
     </section></amp-accordion>

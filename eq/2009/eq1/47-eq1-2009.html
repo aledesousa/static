@@ -18,7 +18,7 @@
     }
     body {font-family: Arial, sans-serif;
                       font-size: 0.8em}
-     h1.questao {font-size: 1em; font-weight: strong;margin-left: 5px}
+     h1.questao {font-size: 1em; font-weight: bold;margin-left: 5px}
      amp-img img {object-fit: contain;}
     .responsive {max-width: 100%; height: auto;}
     .txtsuporte {border: 1px solid #000;
@@ -29,30 +29,30 @@
     amp-accordion, .enunciado {
       margin: var(--space-2);
     }
-    amp-accordion h2 {padding: 5px; color: #000;font-size: 1em} 
-    amp-accordion section h2 span {width:auto; 
+    amp-accordion h4 {padding: 5px; color: #000;} 
+    amp-accordion section h4 span {width:auto; 
       display: inline-block; 
       float: right; 
       text-align: right} 
-    amp-accordion section:not([expanded]) h2 span::after {content: '▼ '}
-    amp-accordion section[expanded] h2 span::after {content: '▲ '}
-    amp-accordion.acc-texto h2::before {content: '📄 '}
-    amp-accordion.acc-suporte h2::before {content: '🗺️ '}
-    amp-accordion.acc-resposta h2::before {content: '👁️ '}
-    amp-accordion.acc-comentario h2::before {content: '💬 '}
+    amp-accordion section:not([expanded]) h4 span::after {content: '▼ '}
+    amp-accordion section[expanded] h4 span::after {content: '▲ '}
+    amp-accordion.acc-texto h4::before {content: '📄 '}
+    amp-accordion.acc-suporte h4::before {content: '🗺️ '}
+    amp-accordion.acc-resposta h4::before {content: '👁️ '}
+    amp-accordion.acc-comentario h4::before {content: '💬 '}
     blockquote {font-style: italic}
   </style>
 </head><body><h1 class='questao'>Questão 47 - 1º EQ 2009</h1>
  <amp-accordion class='acc-suporte' animate disable-session-states>
     <section>
-      <h2>Suporte do enunciado<span class='seta'></span></h2>
+      <h4>Suporte do enunciado<span class='seta'></span></h4>
   <amp-carousel
     type='slides'
     layout='responsive'
-    width='4'
-    height='3'
+    width='2'
+    height='1'
     lightbox>
-    <div><amp-img layout='responsive' height='3' width='4' height='212' alt='' width='401' src='imagens/Planisferio.jpg?resize=401%2C212' data-recalc-dims='1'></img-amp></div></amp-carousel>
+    <div><amp-img layout='fill' height='1' width='1' height='212' alt='' width='401' src='imagens/Planisferio.jpg?resize=401%2C212' data-recalc-dims='1'></img-amp></div></amp-carousel>
   </section></amp-accordion><div class='enunciado'><blockquote>
 <p>Se uma imagem vale mais do que mil palavras, um mapa pode valer um milhão – mas cuidado. Todos os mapas distorcem a realidade. (…) Todos os cartógrafos procuram retratar o complexo mundo tridimensional em uma folha de papel ou em uma televisão ou tela de vídeo. Em resumo, o autor avisa, todos os mapas precisam contar mentirinhas. </p>
 <p>MARK MONMONIER<br>Traduzido de <i>How to lie with maps</i>. Chicago/London: The University of Chicago of Press, 1996.</p>
@@ -65,11 +65,11 @@
 <p>(C) Leste – Noroeste – Leste</p>
 <p>(D) Oeste – Noroeste – Oeste</p></div><amp-accordion class='acc-resposta' animate disable-session-states>
     <section>
-      <h2>Resposta<span class='seta'></span></h2>
+      <h4>Resposta<span class='seta'></span></h4>
       <div class='respostas'><p>Alternativa correta: (A)</p></div>
     </section></amp-accordion><amp-accordion class='acc-comentario' animate disable-session-states>
     <section>
-      <h2>Explicação<span class='seta'></span></h2>
+      <h4>Explicação<span class='seta'></span></h4>
       <div class='respostas'>
 <p>O texto de Mark Monmonier constitui uma advertência às distorções da realidade que necessariamente ocorrem nas representações em mapas. Considerando essa informação e conhecimentos prévios de cartografia, é possível orientar-se corretamente entre os pontos assinalados no planisfério, deslocando-se pela menor distância possível da seguinte forma: do ponto A ao ponto B, deve-se seguir para o leste, uma vez que a Terra é uma esfera e atravessar o Oceano Pacífico é o menor caminho para ir do Japão à Costa Oeste norte-americana; do ponto B ao ponto C, no norte canadense, a direção correta é a norte, seguindo a linha do meridiano que passa entre os dois pontos e que converge para o Pólo Norte; do ponto C ao ponto D, pela direção oeste, apenas o Estreito de Behring separa o continente americano do asiático.</p></div>
     </section></amp-accordion>
