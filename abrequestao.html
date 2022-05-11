@@ -4,30 +4,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title></title>
 <style>
-body, html {
-  height:100%;
-}
-
-iframe {
-  height:100%;
-  width:100%;
-}
+    html, body, div, iframe {margin:0; padding:0; height:100%}
+    iframe {display:block; width:100%; border:none}
 
 .container {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 100%; /* 1:1 Aspect Ratio */
+  padding-top: 17.8%; /* 1:1 Aspect Ratio */
 }
 
 .responsive-iframe {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   border: none;
 }
 </style>
